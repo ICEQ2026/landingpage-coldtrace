@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ColdTrace — Intelligent monitoring for cold storage</title>
+  <meta name="description" content="ColdTrace centralizes your cold storage infrastructure on a single intelligent platform: real-time monitoring, hardware health, alerts and regulatory compliance.">
+  <meta name="keywords" content="cold chain, cold storage, IoT monitoring, temperature monitoring, regulatory compliance, HACCP, ColdTrace">
+  <meta name="author" content="ColdTrace">
+
+  <meta property="og:title" content="ColdTrace — Intelligent monitoring for cold storage">
+  <meta property="og:description" content="All your storage infrastructure under a single intelligent platform.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/logo/coldtrace-logo.png">
+
+  <link rel="icon" type="image/png" href="assets/images/logo/coldtrace-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Varela+Round&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/styles/reset.css">
+  <link rel="stylesheet" href="assets/styles/variables.css">
+  <link rel="stylesheet" href="assets/styles/layout.css">
+  <link rel="stylesheet" href="assets/styles/main.css">
+  <link rel="stylesheet" href="assets/styles/components/header.css">
+  <link rel="stylesheet" href="assets/styles/components/hero.css">
+  <link rel="stylesheet" href="assets/styles/responsive.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="#home" class="navbar__logo" aria-label="ColdTrace home">
+        <img src="assets/images/logo/coldtrace-logo.png" alt="ColdTrace logo" width="228" height="72">
+      </a>
+
+      <button type="button" class="navbar__more" aria-label="Open navigation menu" aria-controls="mobile-nav-panel" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><use href="assets/icons/navbar-more.svg#icon"></use></svg>
+        <span data-i18n="nav.more">More</span>
+      </button>
+
+      <ul class="navbar__menu">
+        <li><a href="#home" class="nav-pill" data-i18n="nav.products">Home</a></li>
+        <li><a href="#features" class="nav-pill" data-i18n="nav.solutions">Features</a></li>
+        <li><a href="#about-product" class="nav-pill" data-i18n="nav.community">Platform</a></li>
+        <li><a href="#why" class="nav-pill" data-i18n="nav.resources">Reviews</a></li>
+        <li><a href="#pricing" class="nav-pill" data-i18n="nav.pricing">Pricing</a></li>
+        <li><a href="#contact" class="nav-pill" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+
+      <div class="navbar__actions">
+        <div class="lang-switcher" role="group" aria-label="Select language">
+          <button type="button" class="lang-switcher__option is-active" data-lang-option="en-US" aria-pressed="true">EN</button>
+          <button type="button" class="lang-switcher__option" data-lang-option="es-419" aria-pressed="false">ES</button>
+        </div>
+        <a href="#signin" class="btn btn--ghost" data-i18n="nav.signin">Sign in</a>
+        <a href="#contact" class="btn btn--primary" data-i18n="nav.register">Register now</a>
+      </div>
+
+      <div class="navbar__mobile-menu" id="mobile-nav-panel" hidden>
+        <div class="navbar__mobile-links" aria-label="Mobile navigation">
+          <a href="#home" class="navbar__mobile-link" data-i18n="nav.products">Home</a>
+          <a href="#features" class="navbar__mobile-link" data-i18n="nav.solutions">Features</a>
+          <a href="#about-product" class="navbar__mobile-link" data-i18n="nav.community">Platform</a>
+          <a href="#why" class="navbar__mobile-link" data-i18n="nav.resources">Reviews</a>
+          <a href="#pricing" class="navbar__mobile-link" data-i18n="nav.pricing">Pricing</a>
+          <a href="#contact" class="navbar__mobile-link" data-i18n="nav.contact">Contact</a>
+        </div>
+
+        <div class="navbar__mobile-language">
+          <p class="navbar__mobile-language-title" data-i18n="nav.language">Language</p>
+          <div class="lang-switcher lang-switcher--mobile" role="group" aria-label="Select language">
+            <button type="button" class="lang-switcher__option is-active" data-lang-option="en-US" aria-pressed="true">EN</button>
+            <button type="button" class="lang-switcher__option" data-lang-option="es-419" aria-pressed="false">ES</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+    <!-- ========== Hero ========== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__text">
+        <h1 id="hero-title" data-i18n="hero.title">
+          All your storage infrastructure under a single intelligent platform
+        </h1>
+        <p class="hero__subtitle" data-i18n="hero.subtitle">
+          The dashboard to centralize your cold storage, manage hardware health, and ensure 100% regulatory compliance.
+        </p>
+      </div>
+
+      <div class="hero__visual" aria-hidden="true">
+        <div class="hero__centerpiece">
+          <img class="hero__centerpiece-art" src="assets/images/hero/centerpiece.png" alt="">
+        </div>
+
+        <!-- Current Balance with gauge meter -->
+        <article class="dash-card dash-card--balance">
+          <header class="dash-card__title">Current Balance</header>
+          <div class="dash-card__head">
+            <div class="dash-card__head-left">
+              <strong class="dash-card__amount">$20,000</strong>
+              <button type="button" class="icon-btn" aria-label="Edit">
+                <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><use href="assets/icons/hero-edit.svg#icon"></use></svg>
+              </button>
+            </div>
+            <span class="dash-card__date">May, 2026</span>
+          </div>
+          <div class="dash-card__details">
+            <div class="dash-metric-col">
+              <div class="dash-metric">
+                <svg class="dash-metric__icon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><use href="assets/icons/hero-achievement.svg#icon"></use></svg>
+                <div>
+                  <span class="dash-metric__label">Target Achieved</span>
+                  <strong class="dash-metric__value">$12,500</strong>
+                </div>
+              </div>
+              <div class="dash-metric">
+                <svg class="dash-metric__icon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><use href="assets/icons/hero-target.svg#icon"></use></svg>
+                <div>
+                  <span class="dash-metric__label">This month Target</span>
+                  <strong class="dash-metric__value">$20,000</strong>
+                </div>
+              </div>
+            </div>
+            <div class="gauge">
+              <svg viewBox="0 0 140 80" width="140" height="80" aria-hidden="true"><use href="assets/icons/hero-gauge.svg#icon"></use></svg>
+              <div class="gauge__range">
+                <span>$0</span>
+                <strong>12K</strong>
+                <span>$20k</span>
+              </div>
+              <p class="gauge__label">Target vs Achievement</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Storage Conditions -->
+        <article class="dash-card dash-card--storage">
+          <header class="dash-card__title">Storage Conditions</header>
+          <ul class="bar-list">
+            <li>
+              <span class="bar-list__icon bar-list__icon--orange" aria-hidden="true">
+                <svg viewBox="0 0 16 16" width="11" height="11"><use href="assets/icons/hero-storage-cold.svg#icon"></use></svg>
+              </span>
+              <span class="bar-list__label">Cold Storage</span>
+              <span class="bar"><span class="bar__fill bar__fill--orange" style="width:52%"></span></span>
+              <span class="bar-list__value">52%</span>
+            </li>
+            <li>
+              <span class="bar-list__icon bar-list__icon--green" aria-hidden="true">
+                <svg viewBox="0 0 16 16" width="11" height="11"><use href="assets/icons/hero-storage-frozen.svg#icon"></use></svg>
+              </span>
+              <span class="bar-list__label">Frozen Storage</span>
+              <span class="bar"><span class="bar__fill bar__fill--green" style="width:21%"></span></span>
+              <span class="bar-list__value">21%</span>
+            </li>
+            <li>
+              <span class="bar-list__icon bar-list__icon--blue" aria-hidden="true">
+                <svg viewBox="0 0 16 16" width="11" height="11"><use href="assets/icons/hero-storage-ambient.svg#icon"></use></svg>
+              </span>
+              <span class="bar-list__label">Ambient Storage</span>
+              <span class="bar"><span class="bar__fill bar__fill--blue" style="width:74%"></span></span>
+              <span class="bar-list__value">74%</span>
+            </li>
+          </ul>
+        </article>
+
+        <!-- Project Contributors (with avatars) -->
+        <article class="dash-card dash-card--contributors">
+          <header class="dash-card__title">Project Contributors (task&rsquo;s)</header>
+          <ul class="contributor-list">
+            <li>
+              <img class="contributor-list__avatar" src="assets/images/dashboard/avatar-byewind.png" alt="">
+              <span class="contributor-list__name">ByeWind</span>
+              <span class="badge badge--purple">In Progress</span>
+            </li>
+            <li>
+              <img class="contributor-list__avatar" src="assets/images/dashboard/avatar-natali.png" alt="">
+              <span class="contributor-list__name">Natali Craig</span>
+              <span class="badge badge--green">Complete</span>
+            </li>
+            <li>
+              <img class="contributor-list__avatar" src="assets/images/dashboard/avatar-drew.png" alt="">
+              <span class="contributor-list__name">Drew Cano</span>
+              <span class="badge badge--blue">Pending</span>
+            </li>
+            <li>
+              <img class="contributor-list__avatar" src="assets/images/dashboard/avatar-orlando.png" alt="">
+              <span class="contributor-list__name">Orlando Diggs</span>
+              <span class="badge badge--yellow">Approved</span>
+            </li>
+            <li>
+              <img class="contributor-list__avatar" src="assets/images/dashboard/avatar-andi.png" alt="">
+              <span class="contributor-list__name">Andi Lane</span>
+              <span class="badge badge--gray">Rejected</span>
+            </li>
+          </ul>
+        </article>
+
+        <!-- Historical Temp -->
+        <article class="dash-card dash-card--temp">
+          <header class="dash-card__title">Historical Temp (°C)</header>
+          <strong class="dash-card__big">+34%</strong>
+          <svg class="dash-card__spark" viewBox="0 0 120 40" preserveAspectRatio="none" aria-hidden="true"><use href="assets/icons/hero-sparkline.svg#icon"></use></svg>
+        </article>
+
+        <!-- Quality Metrics (3 overlapping circles) -->
+        <article class="dash-card dash-card--quality">
+          <header class="dash-card__title">Quality Metrics</header>
+          <div class="quality-circles" aria-hidden="true">
+            <div class="quality-circle quality-circle--orange">
+              <span class="quality-circle__pct">85%</span>
+              <span class="quality-circle__name">Food Taste</span>
+            </div>
+            <div class="quality-circle quality-circle--blue">
+              <span class="quality-circle__pct">92%</span>
+              <span class="quality-circle__name">Packaging</span>
+            </div>
+            <div class="quality-circle quality-circle--purple">
+              <span class="quality-circle__pct">85%</span>
+              <span class="quality-circle__name">Hygiene</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 12°C Optimal -->
+        <article class="dash-card dash-card--optimal">
+          <strong class="dash-card__big">12 °C</strong>
+          <span class="dash-card__date">12/20/20</span>
+          <svg class="dash-card__icon" viewBox="0 0 32 32" width="32" height="26" aria-hidden="true"><use href="assets/icons/hero-optimal.svg#icon"></use></svg>
+          <span class="dash-card__tag">Optimal</span>
+        </article>
+
+        <!-- Performance bar chart -->
+        <article class="dash-card dash-card--performance">
+          <header class="dash-card__title">Performance</header>
+          <div class="perf-chart" aria-hidden="true">
+            <div class="perf-group">
+              <span class="perf-bar perf-bar--dark" style="height:78%"></span>
+              <span class="perf-bar perf-bar--light" style="height:44%"></span>
+              <span class="perf-group__label">01</span>
+            </div>
+            <div class="perf-group">
+              <span class="perf-bar perf-bar--light" style="height:60%"></span>
+              <span class="perf-bar perf-bar--dark" style="height:82%"></span>
+              <span class="perf-group__label">02</span>
+            </div>
+            <div class="perf-group">
+              <span class="perf-bar perf-bar--dark" style="height:70%"></span>
+              <span class="perf-bar perf-bar--light" style="height:36%"></span>
+              <span class="perf-group__label">03</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Clock card -->
+        <article class="dash-card dash-card--clock">
+          <svg viewBox="0 0 48 48" width="40" height="40" aria-hidden="true"><use href="assets/icons/hero-clock.svg#icon"></use></svg>
+        </article>
+
+        <!-- Analysis Report row -->
+        <article class="dash-card dash-card--report">
+          <span class="report__title">Analysis Report</span>
+          <span class="report__industry">Analysis and maintenance</span>
+          <span class="report__date">July 25, 2025</span>
+          <span class="report__status">
+            <span class="status-badge status-badge--red">
+              <span class="status-badge__dot"></span>Progress
+            </span>
+          </span>
+        </article>
+      </div>
+
+      <div class="hero__cta">
+        <label class="visually-hidden" for="hero-email" data-i18n="hero.emailLabel">Your email</label>
+        <input id="hero-email" type="email" class="input" placeholder="Mail" data-i18n-placeholder="hero.emailPlaceholder">
+        <a href="#demo" class="btn btn--primary" data-i18n="hero.ctaDemo">Try a demo</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/scripts/i18n.js"></script>
+  <script src="assets/scripts/navigation.js"></script>
+  <script src="assets/scripts/scroll-reveal.js" defer></script>
+  <script src="assets/scripts/main.js"></script>
+</body>
+</html>

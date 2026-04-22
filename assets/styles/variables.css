@@ -1,0 +1,104 @@
+:root {
+  /* === Brand / Primary === */
+  --color-primary: #1b59f8;
+  --color-primary-dark: #0f3fc4;
+
+  /* === Secondary accents === */
+  --color-secondary-purple: #b899eb;
+  --color-secondary-green: #71dd8c;
+  --color-secondary-blue: #7dbbff;
+  --color-secondary-yellow: #ffcc00;
+
+  /* === Surfaces / Backgrounds === */
+  --color-surface: #ffffff;
+  --color-background: #ffffff;
+  --color-background-tertiary: #f5f5f5;
+  --color-background-neutral: #e3e3e3;
+  --color-surface-alt: #f3f3f3;
+
+  /* === Text === */
+  --color-text: #191919;
+  --color-text-default: #1e1e1e;
+  --color-text-primary: #404040;
+  --color-text-secondary: #525256;
+  --color-text-muted: #757575;
+  --color-text-on-brand: #f5f5f5;
+
+  /* === Gray scale === */
+  --color-gray-02: #878787;
+  --color-gray-04: #d1d1d1;
+  --color-gray-05: #e8e8e8;
+  --color-gray-06: #f3f3f3;
+  --color-dark-grey: #616161;
+  --color-mid-grey: #9f9f9f;
+
+  /* === Borders === */
+  --color-border: #eff0f6;
+  --color-border-neutral: #e3e3e3;
+
+  /* === Typography === */
+  --font-family-base: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-family-display: "Varela Round", "Inter", sans-serif;
+
+  --font-size-10: 10px;
+  --font-size-12: 12px;
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+  --font-size-20: 20px;
+  --font-size-22: 22px;
+  --font-size-24: 24px;
+  --font-size-32: 32px;
+  --font-size-48: 48px;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  --line-height-tight: 1.2;
+  --line-height-base: 1.4;
+  --line-height-20: 20px;
+  --line-height-24: 24px;
+  --line-height-32: 32px;
+
+  /* === Spacing (from Figma space tokens) === */
+  --spacing-0: 0;
+  --spacing-100: 4px;
+  --spacing-200: 8px;
+  --spacing-300: 12px;
+  --spacing-400: 16px;
+  --spacing-600: 24px;
+  --spacing-700: 28px;
+  --spacing-800: 32px;
+  --spacing-1200: 48px;
+  --spacing-1600: 64px;
+  --spacing-2000: 80px;
+
+  /* Semantic aliases */
+  --spacing-xs: var(--spacing-100);
+  --spacing-sm: var(--spacing-200);
+  --spacing-md: var(--spacing-400);
+  --spacing-lg: var(--spacing-600);
+  --spacing-xl: var(--spacing-1200);
+  --spacing-2xl: var(--spacing-1600);
+
+  /* === Radius === */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  /* === Shadows === */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04);
+  --shadow-md:
+    0 0 1px rgba(0, 0, 0, 0.04),
+    0 2px 6px rgba(0, 0, 0, 0.04),
+    0 16px 24px rgba(0, 0, 0, 0.06);
+  --shadow-header: 0 2px 10px rgba(0, 0, 0, 0.2);
+  --shadow-card: 0 20px 25px rgba(76, 103, 100, 0.1);
+
+  /* === Layout === */
+  --container-max: 1200px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-desktop: 1024px;
+}
