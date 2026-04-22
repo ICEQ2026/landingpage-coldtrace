@@ -1,0 +1,242 @@
+{
+  "nav": {
+    "products": "Home",
+    "solutions": "Features",
+    "community": "Platform",
+    "resources": "Reviews",
+    "pricing": "Workflow",
+    "contact": "Contact",
+    "more": "More",
+    "language": "Language",
+    "signin": "Sign in",
+    "register": "Register now"
+  },
+  "hero": {
+    "title": "All your storage infrastructure under a single intelligent platform",
+    "subtitle": "The dashboard to centralize your cold storage, manage hardware health, and ensure 100% regulatory compliance.",
+    "emailLabel": "Your email",
+    "emailPlaceholder": "Mail",
+    "ctaDemo": "Try a demo"
+  },
+  "features": {
+    "title": "Everything you need to monitor and control",
+    "subtitle": "IoT sensors, live dashboard, multichannel alerts, and regulatory reports - no manual spreadsheets, no lost thermometers, no surprises.",
+    "steps": {
+      "monitoring": {
+        "eyebrow": "01 · Monitoring",
+        "title": "Real-time IoT sensors monitoring",
+        "body": "Temperature, humidity, and door openings tracked live in cold rooms, warehouses, industrial kitchens, and minimarkets."
+      },
+      "records": {
+        "eyebrow": "02 · Records",
+        "title": "Download your complete history",
+        "body": "Every reading is logged and exportable. Download historical data by asset, by site, or by period, in CSV or PDF format."
+      },
+      "alerts": {
+        "eyebrow": "03 · Alerts",
+        "title": "Notifications the moment something deviates",
+        "body": "Email and messaging alerts when temperature or humidity goes out of range. The operations manager is notified instantly."
+      },
+      "compliance": {
+        "eyebrow": "04 · Compliance",
+        "title": "Reports for DIGESA and MINSA",
+        "body": "Incident reports and logs exportable in one click. Ready-to-use templates for sanitary inspections for DIGESA and MINSA."
+      }
+    },
+    "notes": {
+      "history": "Export your data history by asset, site, or period",
+      "records": "Download records by event type or sensor",
+      "incidents": "Download alert and incident logs instantly"
+    },
+    "benefits": {
+      "title": "More benefits for you",
+      "time": {
+        "label": "Save time:",
+        "body": "automate tasks and eliminate manual records."
+      },
+      "risk": {
+        "label": "Reduce risks:",
+        "body": "act early and prevent incidents before they happen."
+      }
+    }
+  },
+  "aboutProduct": {
+    "title": "See ColdTrace in action",
+    "subtitle": "Watch a short overview of the platform."
+  },
+  "productShowcase": {
+    "a11yTitle": "ColdTrace platform showcase",
+    "thermal": {
+      "title": {
+        "start": "See every thermal excursion",
+        "accent": "before",
+        "end": "it turns into waste."
+      },
+      "points": {
+        "one": "Live charts by asset, with configurable limits and automatic markers for every door opening.",
+        "two": "Instant alerts for temperature or humidity excursions.",
+        "three": "Zero spreadsheets, zero lost thermometers."
+      },
+      "cta": "View dashboard"
+    },
+    "alerts": {
+      "title": {
+        "start": "Alerts that reach the",
+        "accent": "right person,",
+        "end": "at the right time, always."
+      },
+      "points": {
+        "one": "Alerts by email and message when a temperature or humidity excursion occurs.",
+        "two": "Sent to the operations or quality manager, according to your configuration.",
+        "three": "Real-time information to act quickly and avoid losses."
+      },
+      "cta": "View alerts"
+    },
+    "history": {
+      "title": {
+        "start": "Historical records and incident reports,",
+        "accent": "whenever needed."
+      },
+      "points": {
+        "one": "Complete historical records, each reading is stored by asset, site, or period.",
+        "two": "Audit-ready reports, generate PDF or CSV reports aligned with DIGESA and MINSA.",
+        "three": "Real-time information to act quickly and avoid losses."
+      },
+      "cta": "View reports"
+    },
+    "sites": {
+      "title": {
+        "start": "One single, consolidated view for",
+        "accent": "all your sites",
+        "end": "and operations."
+      },
+      "points": {
+        "one": "All your sites, in one place, monitor the performance of each location in real time.",
+        "two": "Compare and detect instantly, identify sites with alerts or low performance right away.",
+        "three": "Prioritize interventions where they are most needed."
+      },
+      "cta": "View multi-site"
+    }
+  },
+  "why": {
+    "title": "Why ColdTrace?",
+    "subtitle": "Designed for operations and quality managers in minimarkets, cold rooms, warehouses, and industrial kitchens.",
+    "cards": {
+      "one": {
+        "quote": "ColdTrace helps us keep food fresh and avoid waste.",
+        "role": "Store Owner",
+        "name": "Daniel Reyes"
+      },
+      "two": {
+        "quote": "Now I can monitor our fridges from anywhere.",
+        "role": "Market Supervisor",
+        "name": "Laura Mendoza"
+      },
+      "three": {
+        "quote": "Now we prevent losses before they happen.",
+        "role": "Operations Manager",
+        "name": "Andrés Silva"
+      },
+      "four": {
+        "quote": "ColdTrace ensures we meet all compliance standards.",
+        "role": "Quality Manager",
+        "name": "Ricardo Torres"
+      },
+      "five": {
+        "quote": "Instant alerts keep products safe and team responsive.",
+        "role": "Logistics Coordinator",
+        "name": "Sofia Rojas"
+      },
+      "six": {
+        "quote": "With ColdTrace, audits are easy and stress-free.",
+        "role": "Compliance Director",
+        "name": "Jorge Castillo"
+      }
+    }
+  },
+  "overview": {
+    "title": "How ColdTrace works",
+    "rail": {
+      "register": "Register",
+      "resources": "Resources",
+      "pricing": "Pricing",
+      "community": "Community",
+      "contact": "Contact"
+    },
+    "columns": {
+      "configure": {
+        "title": "Configure",
+        "body": "Assign sensors by cold room, define ranges and tolerances by product type, and choose responsible staff by shift. Everything is versioned."
+      },
+      "monitor": {
+        "title": "Monitor",
+        "body": "View by site, by zone, and by asset. Complete historical records, exportable in CSV or PDF. Alerts arrive before the product is damaged."
+      },
+      "audit": {
+        "title": "Audit",
+        "body": "Every reading is recorded and available for download. Export the full report, ready for DIGESA, MINSA inspections or internal audits. Start right now!"
+      }
+    }
+  },
+  "contact": {
+    "title": "Create Account now",
+    "subtitle": "Start monitoring now",
+    "labels": {
+      "name": "Your name",
+      "email": "Your email address",
+      "password": "Choose a password"
+    },
+    "placeholders": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "example_123@email.com",
+      "password": "........"
+    },
+    "terms": {
+      "prefix": "By creating your account, you agree to the",
+      "link": "Terms and Conditions."
+    },
+    "alt": "or sign up with",
+    "google": "Sign up with Google",
+    "apple": "Sign up with Apple",
+    "cta": "Submit"
+  },
+  "footer": {
+    "columns": {
+      "product": {
+        "title": "Product",
+        "items": {
+          "templates": "Templates",
+          "guides": "Guides",
+          "inspiration": "Inspiration",
+          "product": "Product",
+          "mobile": "Download the Mobile app",
+          "desktop": "Download the Desktop app",
+          "team": "Team collaboration"
+        }
+      },
+      "support": {
+        "title": "Support",
+        "items": {
+          "email": "support@gmail.com",
+          "help": "Help center",
+          "pricing": "Plans & pricing",
+          "upcoming": "Upcoming features",
+          "collaboration": "Collaboration features",
+          "release": "Release notes",
+          "status": "Application status"
+        }
+      },
+      "resources": {
+        "title": "Resources",
+      "items": {
+        "blog": "Blog",
+        "careers": "Careers",
+        "social": "Social media",
+        "library": "Resource library",
+        "developers": "Developers"
+      }
+    }
+  }
+  }
+}

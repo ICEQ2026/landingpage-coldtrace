@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg"><symbol id="icon" viewBox="0 0 220 190">
+
+              <rect x="50" y="114" width="120" height="90" rx="12" fill="#2f9ad8" />
+              <path d="M50 126l60 48 60-48v78H50z" fill="#2489c6" />
+              <path d="M50 124l60 48 60-48-60-44-60 44z" fill="#48ace5" />
+              <rect x="76" y="30" width="68" height="72" rx="8" fill="#e0e1ea" />
+              <rect x="94" y="52" width="32" height="38" rx="8" fill="#ef575f" />
+              <rect x="106" y="60" width="8" height="20" rx="4" fill="#fff4f4" />
+              <circle cx="110" cy="87" r="4" fill="#fff4f4" />
+              <g fill="#d0a33b">
+                <circle cx="78" cy="68" r="4" />
+                <circle cx="142" cy="68" r="4" />
+                <circle cx="78" cy="86" r="4" />
+                <circle cx="142" cy="86" r="4" />
+              </g>
+            
+  </symbol>
+  </svg>

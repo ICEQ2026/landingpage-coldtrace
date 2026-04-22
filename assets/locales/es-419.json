@@ -1,0 +1,242 @@
+{
+  "nav": {
+    "products": "Inicio",
+    "solutions": "Funciones",
+    "community": "Plataforma",
+    "resources": "Reseñas",
+    "pricing": "Proceso",
+    "contact": "Contacto",
+    "more": "Menú",
+    "language": "Idioma",
+    "signin": "Iniciar sesión",
+    "register": "Regístrate"
+  },
+  "hero": {
+    "title": "Toda tu infraestructura de almacenamiento en una sola plataforma inteligente",
+    "subtitle": "El panel para centralizar tu cadena de frío, gestionar la salud del hardware y asegurar 100% de cumplimiento regulatorio.",
+    "emailLabel": "Tu correo",
+    "emailPlaceholder": "Correo",
+    "ctaDemo": "Probar demo"
+  },
+  "features": {
+    "title": "Todo lo que necesitas para monitorear y controlar",
+    "subtitle": "Sensores IoT, dashboard en vivo, alertas multicanal y reportes regulatorios: sin hojas manuales, sin termómetros perdidos, sin sorpresas.",
+    "steps": {
+      "monitoring": {
+        "eyebrow": "01 · Monitoreo",
+        "title": "Monitoreo en tiempo real con sensores IoT",
+        "body": "Temperatura, humedad y aperturas de puerta monitoreadas en vivo en cámaras frías, almacenes, cocinas industriales y minimarkets."
+      },
+      "records": {
+        "eyebrow": "02 · Registros",
+        "title": "Descarga tu historial completo",
+        "body": "Cada lectura queda registrada y exportable. Descarga datos históricos por activo, sede o periodo en CSV o PDF."
+      },
+      "alerts": {
+        "eyebrow": "03 · Alertas",
+        "title": "Notificaciones en el momento en que algo se desvía",
+        "body": "Alertas por correo y mensajería cuando la temperatura o la humedad salen de rango. El responsable de operaciones es notificado al instante."
+      },
+      "compliance": {
+        "eyebrow": "04 · Cumplimiento",
+        "title": "Reportes para DIGESA y MINSA",
+        "body": "Reportes de incidentes y bitácoras exportables en un clic. Plantillas listas para inspecciones sanitarias de DIGESA y MINSA."
+      }
+    },
+    "notes": {
+      "history": "Exporta tu historial por activo, sede o periodo",
+      "records": "Descarga registros por tipo de evento o sensor",
+      "incidents": "Descarga alertas y bitácoras de incidentes al instante"
+    },
+    "benefits": {
+      "title": "Más beneficios para ti",
+      "time": {
+        "label": "Ahorra tiempo:",
+        "body": "automatiza tareas y elimina registros manuales."
+      },
+      "risk": {
+        "label": "Reduce riesgos:",
+        "body": "actúa temprano y evita incidentes antes de que sucedan."
+      }
+    }
+  },
+  "aboutProduct": {
+    "title": "ColdTrace en acción",
+    "subtitle": "Mira un recorrido breve por la plataforma."
+  },
+  "productShowcase": {
+    "a11yTitle": "Recorrido de la plataforma ColdTrace",
+    "thermal": {
+      "title": {
+        "start": "Ve cada excursion termica",
+        "accent": "antes",
+        "end": "de que se convierta en merma."
+      },
+      "points": {
+        "one": "Graficos en vivo por activo, con limites configurables y marcadores automaticos para cada apertura de puerta.",
+        "two": "Alertas instantaneas por excursion de temperatura o humedad.",
+        "three": "Cero hojas de calculo, cero termometros perdidos."
+      },
+      "cta": "Ver dashboard"
+    },
+    "alerts": {
+      "title": {
+        "start": "Alertas que llegan a la",
+        "accent": "persona correcta,",
+        "end": "en el momento correcto, siempre."
+      },
+      "points": {
+        "one": "Alertas por correo y mensaje cuando ocurre una excursion de temperatura o humedad.",
+        "two": "Enviadas al responsable de operaciones o calidad, segun tu configuracion.",
+        "three": "Informacion en tiempo real para actuar rapido y evitar perdidas."
+      },
+      "cta": "Ver alertas"
+    },
+    "history": {
+      "title": {
+        "start": "Registros historicos y reportes de incidentes,",
+        "accent": "cuando los necesites."
+      },
+      "points": {
+        "one": "Historial completo de registros, cada lectura queda almacenada por activo, sede o periodo.",
+        "two": "Reportes listos para auditoria, genera PDF o CSV alineados con DIGESA y MINSA.",
+        "three": "Informacion en tiempo real para actuar rapido y evitar perdidas."
+      },
+      "cta": "Ver reportes"
+    },
+    "sites": {
+      "title": {
+        "start": "Una sola vista consolidada para",
+        "accent": "todas tus sedes",
+        "end": "y operaciones."
+      },
+      "points": {
+        "one": "Todas tus sedes en un solo lugar, monitorea el rendimiento de cada ubicacion en tiempo real.",
+        "two": "Compara y detecta al instante, identifica sedes con alertas o bajo rendimiento rapidamente.",
+        "three": "Prioriza intervenciones donde mas se necesitan."
+      },
+      "cta": "Ver multisede"
+    }
+  },
+  "why": {
+    "title": "¿Por qué ColdTrace?",
+    "subtitle": "Diseñado para responsables de operaciones y calidad en minimarkets, cámaras frías, almacenes y cocinas industriales.",
+    "cards": {
+      "one": {
+        "quote": "ColdTrace nos ayuda a mantener los alimentos frescos y evitar desperdicios.",
+        "role": "Propietario de tienda",
+        "name": "Daniel Reyes"
+      },
+      "two": {
+        "quote": "Ahora puedo monitorear nuestras cámaras desde cualquier lugar.",
+        "role": "Supervisora de market",
+        "name": "Laura Mendoza"
+      },
+      "three": {
+        "quote": "Ahora prevenimos pérdidas antes de que ocurran.",
+        "role": "Gerente de operaciones",
+        "name": "Andrés Silva"
+      },
+      "four": {
+        "quote": "ColdTrace garantiza que cumplamos todos los estándares de cumplimiento.",
+        "role": "Gerente de calidad",
+        "name": "Ricardo Torres"
+      },
+      "five": {
+        "quote": "Las alertas instantáneas mantienen los productos seguros y al equipo atento.",
+        "role": "Coordinadora logística",
+        "name": "Sofia Rojas"
+      },
+      "six": {
+        "quote": "Con ColdTrace, las auditorías son fáciles y sin estrés.",
+        "role": "Director de cumplimiento",
+        "name": "Jorge Castillo"
+      }
+    }
+  },
+  "overview": {
+    "title": "Cómo funciona ColdTrace",
+    "rail": {
+      "register": "Registro",
+      "resources": "Recursos",
+      "pricing": "Precios",
+      "community": "Comunidad",
+      "contact": "Contacto"
+    },
+    "columns": {
+      "configure": {
+        "title": "Configura",
+        "body": "Asigna sensores por cámara fría, define rangos y tolerancias por tipo de producto, y elige al personal responsable por turno. Todo queda versionado."
+      },
+      "monitor": {
+        "title": "Monitorea",
+        "body": "Visualiza por sede, por zona y por activo. Historiales completos, exportables en CSV o PDF. Las alertas llegan antes de que el producto se dañe."
+      },
+      "audit": {
+        "title": "Audita",
+        "body": "Cada lectura queda registrada y disponible para descarga. Exporta el reporte completo, listo para DIGESA, MINSA o auditorías internas. Empieza ahora mismo."
+      }
+    }
+  },
+  "contact": {
+    "title": "Crea tu cuenta ahora",
+    "subtitle": "Empieza a monitorear ahora",
+    "labels": {
+      "name": "Tu nombre",
+      "email": "Tu correo electrónico",
+      "password": "Elige una contraseña"
+    },
+    "placeholders": {
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "email": "example_123@email.com",
+      "password": "........"
+    },
+    "terms": {
+      "prefix": "Al crear tu cuenta, aceptas los",
+      "link": "Términos y condiciones."
+    },
+    "alt": "o regístrate con",
+    "google": "Regístrate con Google",
+    "apple": "Regístrate con Apple",
+    "cta": "Crear cuenta"
+  },
+  "footer": {
+    "columns": {
+      "product": {
+        "title": "Producto",
+        "items": {
+          "templates": "Plantillas",
+          "guides": "Guías",
+          "inspiration": "Inspiración",
+          "product": "Producto",
+          "mobile": "Descarga la app móvil",
+          "desktop": "Descarga la app de escritorio",
+          "team": "Colaboración en equipo"
+        }
+      },
+      "support": {
+        "title": "Soporte",
+        "items": {
+          "email": "support@gmail.com",
+          "help": "Centro de ayuda",
+          "pricing": "Planes y precios",
+          "upcoming": "Próximas funciones",
+          "collaboration": "Funciones de colaboración",
+          "release": "Notas de versión",
+          "status": "Estado de la aplicación"
+        }
+      },
+      "resources": {
+        "title": "Recursos",
+      "items": {
+        "blog": "Blog",
+        "careers": "Empleos",
+        "social": "Redes sociales",
+        "library": "Biblioteca de recursos",
+        "developers": "Desarrolladores"
+      }
+    }
+  }
+  }
+}

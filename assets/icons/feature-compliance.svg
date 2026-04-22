@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg"><symbol id="icon" viewBox="0 0 220 190">
+
+              <rect x="40" y="24" width="140" height="150" rx="12" fill="#d7e4e8" />
+              <rect x="40" y="24" width="140" height="24" rx="12" fill="#60c36d" />
+              <circle cx="56" cy="36" r="4" fill="#ffffff" />
+              <circle cx="72" cy="36" r="4" fill="#ffffff" />
+              <circle cx="88" cy="36" r="4" fill="#ffffff" />
+              <rect x="142" y="33" width="20" height="6" rx="3" fill="#4ea65a" />
+              <rect x="74" y="66" width="12" height="56" rx="6" fill="#e2a04a" />
+              <rect x="108" y="66" width="12" height="56" rx="6" fill="#e2a04a" />
+              <rect x="62" y="82" width="70" height="8" rx="4" fill="#e2a04a" />
+              <rect x="58" y="122" width="78" height="10" rx="5" fill="#e2a04a" />
+              <path d="M64 100l-16 20h32l-16-20z" fill="#e2a04a" />
+              <path d="M128 100l-16 20h32l-16-20z" fill="#e2a04a" />
+              <g fill="none" stroke="#58bb6a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M158 72l8 8 14-16" />
+                <path d="M158 108l8 8 14-16" />
+                <path d="M158 144l8 8 14-16" />
+              </g>
+            
+  </symbol>
+  </svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg"><symbol id="icon" viewBox="0 0 220 190">
+
+              <ellipse cx="110" cy="62" rx="74" ry="28" fill="#6e7d89" />
+              <path d="M36 62h148v34c0 12-10 22-22 22H58c-12 0-22-10-22-22V62z" fill="#8d9da9" />
+              <ellipse cx="110" cy="96" rx="74" ry="28" fill="#d2e2ef" />
+              <ellipse cx="110" cy="100" rx="60" ry="16" fill="#94a3af" />
+              <ellipse cx="110" cy="137" rx="40" ry="15" fill="#ff5262" />
+              <circle cx="110" cy="50" r="8" fill="#ff5c67" />
+              <g fill="#64717d">
+                <rect x="58" y="92" width="8" height="18" rx="4" />
+                <rect x="80" y="90" width="8" height="20" rx="4" />
+                <rect x="102" y="88" width="8" height="22" rx="4" />
+                <rect x="124" y="90" width="8" height="20" rx="4" />
+                <rect x="146" y="92" width="8" height="18" rx="4" />
+              </g>
+              <g fill="#7e8d98">
+                <circle cx="50" cy="99" r="4" />
+                <circle cx="72" cy="104" r="4" />
+                <circle cx="148" cy="104" r="4" />
+                <circle cx="170" cy="99" r="4" />
+              </g>
+              <g stroke="#c9ddf1" stroke-linecap="round" stroke-width="6" fill="none" opacity="0.95">
+                <path d="M50 140c-10 18 8 22 0 42" />
+                <path d="M78 148c-10 18 8 22 0 42" />
+                <path d="M142 148c-10 18 8 22 0 42" />
+                <path d="M170 140c-10 18 8 22 0 42" />
+              </g>
+            
+  </symbol>
+  </svg>

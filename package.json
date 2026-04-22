@@ -1,0 +1,6 @@
+{
+  "name": "coldtrace-landing-page",
+  "version": "1.0.0",
+  "description": "Static landing page for ColdTrace",
+  "private": true
+}

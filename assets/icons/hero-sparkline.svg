@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg"><symbol id="icon" viewBox="0 0 120 40">
+
+            <defs>
+              <linearGradient id="sparkFill" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#1b59f8" stop-opacity="0.25" />
+                <stop offset="100%" stop-color="#1b59f8" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+            <path d="M0,28 L15,20 L30,24 L45,14 L60,18 L75,10 L90,16 L105,6 L120,12 L120,40 L0,40 Z" fill="url(#sparkFill)" />
+            <polyline fill="none" stroke="#1b59f8" stroke-width="2" points="0,28 15,20 30,24 45,14 60,18 75,10 90,16 105,6 120,12" />
+          
+  </symbol>
+  </svg>
