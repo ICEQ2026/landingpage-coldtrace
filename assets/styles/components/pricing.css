@@ -1,0 +1,132 @@
+/* ==========================================================================
+   Overview / process section
+   ========================================================================== */
+
+.overview-section {
+  padding-top: clamp(68px, 5.5vw, 96px);
+  padding-bottom: clamp(76px, 6vw, 108px);
+}
+
+.overview-rail {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: clamp(20px, 2vw, 40px);
+  align-items: end;
+  margin-bottom: clamp(56px, 4.6vw, 84px);
+}
+
+.overview-rail__item {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  color: rgba(30, 30, 30, 0.38);
+  cursor: pointer;
+  transition:
+    transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1),
+    color 0.24s ease,
+    filter 0.24s ease;
+}
+
+.overview-rail__icon {
+  width: clamp(84px, 5.8vw, 116px);
+  height: auto;
+  object-fit: contain;
+  transition:
+    transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1),
+    filter 0.24s ease;
+}
+
+.overview-rail__label {
+  position: relative;
+  display: inline-block;
+  font-family: "Courier New", monospace;
+  font-size: clamp(20px, 1.3vw, 28px);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.overview-rail__label::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  height: 2px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.24s ease;
+}
+
+.overview-rail__item:hover,
+.overview-rail__item:focus-visible {
+  color: rgba(30, 30, 30, 0.72);
+  transform: translateY(-10px);
+  filter: drop-shadow(0 14px 24px rgba(30, 30, 30, 0.1));
+  outline: none;
+}
+
+.overview-rail__item:hover .overview-rail__icon,
+.overview-rail__item:focus-visible .overview-rail__icon {
+  transform: translateY(-3px) scale(1.03);
+  filter: drop-shadow(0 12px 20px rgba(30, 30, 30, 0.1));
+}
+
+.overview-rail__item:hover .overview-rail__label::after,
+.overview-rail__item:focus-visible .overview-rail__label::after {
+  transform: scaleX(1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .overview-rail__item,
+  .overview-rail__icon,
+  .overview-rail__label::after {
+    transition: none;
+  }
+}
+
+.overview-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(32px, 3vw, 72px);
+  align-items: start;
+}
+
+.overview-card {
+  max-width: 520px;
+}
+
+.overview-card__head {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 14px;
+  color: var(--color-text-primary);
+}
+
+.overview-card__info {
+  width: 40px;
+  height: 40px;
+  flex: 0 0 auto;
+}
+
+.overview-card h3 {
+  font-family: var(--font-family-base);
+  font-size: clamp(26px, 1.7vw, 38px);
+  font-weight: 700;
+  line-height: 1.05;
+}
+
+.overview-card p {
+  max-width: 500px;
+  margin-left: 58px;
+  font-size: clamp(18px, 1.25vw, 26px);
+  line-height: 1.24;
+  color: rgba(30, 30, 30, 0.66);
+}

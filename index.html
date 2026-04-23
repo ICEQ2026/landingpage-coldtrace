@@ -28,6 +28,8 @@
   <link rel="stylesheet" href="assets/styles/components/features.css">
   <link rel="stylesheet" href="assets/styles/components/showcase.css">
   <link rel="stylesheet" href="assets/styles/components/team.css">
+  <link rel="stylesheet" href="assets/styles/components/pricing.css">
+  <link rel="stylesheet" href="assets/styles/components/footer.css">
   <link rel="stylesheet" href="assets/styles/responsive.css">
 </head>
 <body>
@@ -601,6 +603,127 @@
           <p class="why-card__role" data-i18n="why.cards.six.role">Compliance Director</p>
           <p class="why-card__name" data-i18n="why.cards.six.name">Jorge Castillo</p>
         </article>
+      </div>
+    </section>
+
+    <!-- ========== Pricing ========== -->
+    <section id="pricing" class="overview-section" aria-labelledby="overview-title">
+      <h2 id="overview-title" class="visually-hidden" data-i18n="overview.title">How ColdTrace works</h2>
+
+      <nav class="overview-rail" aria-label="Platform sections">
+        <button type="button" class="overview-rail__item">
+          <img class="overview-rail__icon" src="assets/images/overview/register-icon.png" alt="" loading="lazy" decoding="async">
+          <span class="overview-rail__label" data-i18n="overview.rail.register">Register</span>
+        </button>
+
+        <button type="button" class="overview-rail__item">
+          <img class="overview-rail__icon" src="assets/images/overview/resources-icon.png" alt="" loading="lazy" decoding="async">
+          <span class="overview-rail__label" data-i18n="overview.rail.resources">Resources</span>
+        </button>
+
+        <button type="button" class="overview-rail__item">
+          <img class="overview-rail__icon" src="assets/images/overview/pricing-icon.png" alt="" loading="lazy" decoding="async">
+          <span class="overview-rail__label" data-i18n="overview.rail.pricing">Pricing</span>
+        </button>
+
+        <button type="button" class="overview-rail__item">
+          <img class="overview-rail__icon" src="assets/images/overview/community-icon.png" alt="" loading="lazy" decoding="async">
+          <span class="overview-rail__label" data-i18n="overview.rail.community">Community</span>
+        </button>
+
+        <button type="button" class="overview-rail__item">
+          <img class="overview-rail__icon" src="assets/images/overview/contact-icon.png" alt="" loading="lazy" decoding="async">
+          <span class="overview-rail__label" data-i18n="overview.rail.contact">Contact</span>
+        </button>
+      </nav>
+
+      <div class="overview-grid">
+        <article class="overview-card">
+          <div class="overview-card__head">
+            <svg class="overview-card__info" viewBox="0 0 48 48" aria-hidden="true"><use href="assets/icons/overview-info.svg#icon"></use></svg>
+            <h3 data-i18n="overview.columns.configure.title">Configure</h3>
+          </div>
+          <p data-i18n="overview.columns.configure.body">Assign sensors by cold room, define ranges and tolerances by product type, and choose responsible staff by shift. Everything is versioned.</p>
+        </article>
+
+        <article class="overview-card">
+          <div class="overview-card__head">
+            <svg class="overview-card__info" viewBox="0 0 48 48" aria-hidden="true"><use href="assets/icons/overview-info.svg#icon"></use></svg>
+            <h3 data-i18n="overview.columns.monitor.title">Monitor</h3>
+          </div>
+          <p data-i18n="overview.columns.monitor.body">View by site, by zone, and by asset. Complete historical records, exportable in CSV or PDF. Alerts arrive before the product is damaged.</p>
+        </article>
+
+        <article class="overview-card">
+          <div class="overview-card__head">
+            <svg class="overview-card__info" viewBox="0 0 48 48" aria-hidden="true"><use href="assets/icons/overview-info.svg#icon"></use></svg>
+            <h3 data-i18n="overview.columns.audit.title">Audit</h3>
+          </div>
+          <p data-i18n="overview.columns.audit.body">Every reading is recorded and available for download. Export the full report, ready for DIGESA, MINSA inspections or internal audits. Start right now!</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== Final Sign-up ========== -->
+    <section id="contact" class="signup-shell" aria-labelledby="contact-title">
+      <div class="signup-shell__stage">
+        <img class="signup-shell__art signup-shell__art--left" src="assets/images/final-section/signup-art-left.png" alt="" loading="eager" decoding="async">
+        <img class="signup-shell__art signup-shell__art--right" src="assets/images/final-section/signup-art-right.png" alt="" loading="eager" decoding="async">
+
+        <form class="signup-card" novalidate>
+          <h2 id="contact-title" class="signup-card__title" data-i18n="contact.title">Create Account now</h2>
+          <p class="signup-card__subtitle" data-i18n="contact.subtitle">Start monitoring now</p>
+
+          <div class="signup-field">
+            <label for="first-name" data-i18n="contact.labels.name">Your name</label>
+            <div class="signup-card__split">
+              <input id="first-name" class="input" type="text" autocomplete="given-name" data-i18n-placeholder="contact.placeholders.firstName" placeholder="First name">
+              <input id="last-name" class="input" type="text" autocomplete="family-name" data-i18n-placeholder="contact.placeholders.lastName" placeholder="Last name">
+            </div>
+          </div>
+
+          <div class="signup-field">
+            <label for="signup-email" data-i18n="contact.labels.email">Your email address</label>
+            <input id="signup-email" class="input" type="email" autocomplete="email" data-i18n-placeholder="contact.placeholders.email" placeholder="example_123@email.com">
+          </div>
+
+          <div class="signup-field">
+            <label for="signup-password" data-i18n="contact.labels.password">Choose a password</label>
+            <div class="signup-password">
+              <input id="signup-password" class="input" type="password" autocomplete="new-password" data-i18n-placeholder="contact.placeholders.password" placeholder="........">
+              <button type="button" class="signup-password__toggle" aria-label="Show password">
+                <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><use href="assets/icons/signup-eye-off.svg#icon"></use></svg>
+              </button>
+            </div>
+          </div>
+
+          <button type="submit" class="btn signup-card__submit" data-i18n="contact.cta">Submit</button>
+
+          <p class="signup-card__terms">
+            <span data-i18n="contact.terms.prefix">By creating your account, you agree to the</span>
+            <span data-i18n="contact.terms.link">Terms and Conditions.</span>
+          </p>
+
+          <div class="signup-card__divider">
+            <span data-i18n="contact.alt">or sign up with</span>
+          </div>
+
+          <div class="signup-card__social">
+            <a href="#google" class="signup-card__social-btn signup-card__social-btn--google">
+              <span class="signup-card__social-icon signup-card__social-icon--google" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26"><use href="assets/icons/signup-google.svg#icon"></use></svg>
+              </span>
+              <span data-i18n="contact.google">Sign up with Google</span>
+            </a>
+
+            <a href="#apple" class="signup-card__social-btn signup-card__social-btn--apple">
+              <span class="signup-card__social-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26"><use href="assets/icons/signup-apple.svg#icon"></use></svg>
+              </span>
+              <span data-i18n="contact.apple">Sign up with Apple</span>
+            </a>
+          </div>
+        </form>
       </div>
     </section>
   </main>
