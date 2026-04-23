@@ -26,6 +26,8 @@
   <link rel="stylesheet" href="assets/styles/components/header.css">
   <link rel="stylesheet" href="assets/styles/components/hero.css">
   <link rel="stylesheet" href="assets/styles/components/features.css">
+  <link rel="stylesheet" href="assets/styles/components/showcase.css">
+  <link rel="stylesheet" href="assets/styles/components/team.css">
   <link rel="stylesheet" href="assets/styles/responsive.css">
 </head>
 <body>
@@ -361,6 +363,244 @@
             </p>
           </div>
         </aside>
+      </div>
+    </section>
+
+    <!-- ========== Product showcase ========== -->
+    <section id="about-product" class="product-showcase" aria-labelledby="about-product-title">
+      <h2 id="about-product-title" class="visually-hidden" data-i18n="productShowcase.a11yTitle">ColdTrace platform showcase</h2>
+
+      <div class="product-showcase__stack">
+        <article class="showcase-panel showcase-panel--thermal">
+          <div class="showcase-panel__visual showcase-panel__visual--thermal" aria-hidden="true">
+            <img
+              class="showcase-shot showcase-shot--thermal"
+              src="assets/images/showcase/trimmed/thermal-trim.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+
+          <div class="showcase-panel__copy showcase-panel__copy--green">
+            <h3 class="showcase-panel__title">
+              <span data-i18n="productShowcase.thermal.title.start">See every thermal excursion</span>
+              <span class="showcase-panel__accent showcase-panel__accent--green" data-i18n="productShowcase.thermal.title.accent">before</span>
+              <span data-i18n="productShowcase.thermal.title.end">it turns into waste.</span>
+            </h3>
+
+            <ul class="showcase-list">
+              <li class="showcase-list__item">
+                <span class="showcase-list__icon showcase-list__icon--green">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/showcase-thermal-wave.svg#icon"></use></svg>
+                </span>
+                <p data-i18n="productShowcase.thermal.points.one">Live charts by asset, with configurable limits and automatic markers for every door opening.</p>
+              </li>
+              <li class="showcase-list__item">
+                <span class="showcase-list__icon showcase-list__icon--green">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/showcase-thermal-bell.svg#icon"></use></svg>
+                </span>
+                <p data-i18n="productShowcase.thermal.points.two">Instant alerts for temperature or humidity excursions.</p>
+              </li>
+              <li class="showcase-list__item">
+                <span class="showcase-list__icon showcase-list__icon--green">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/showcase-thermal-doc.svg#icon"></use></svg>
+                </span>
+                <p data-i18n="productShowcase.thermal.points.three">Zero spreadsheets, zero lost thermometers.</p>
+              </li>
+            </ul>
+
+            <a href="#contact" class="btn showcase-panel__cta showcase-panel__cta--green" data-i18n="productShowcase.thermal.cta">View dashboard</a>
+          </div>
+        </article>
+
+        <article class="showcase-panel showcase-panel--alerts showcase-panel--reverse">
+          <div class="showcase-panel__copy showcase-panel__copy--red">
+            <h3 class="showcase-panel__title">
+              <span data-i18n="productShowcase.alerts.title.start">Alerts that reach the</span>
+              <span class="showcase-panel__accent showcase-panel__accent--red" data-i18n="productShowcase.alerts.title.accent">right person,</span>
+              <span data-i18n="productShowcase.alerts.title.end">at the right time, always.</span>
+            </h3>
+
+            <ul class="showcase-list">
+              <li class="showcase-list__item">
+                <span class="showcase-list__icon showcase-list__icon--red">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/showcase-alert-warning.svg#icon"></use></svg>
+                </span>
+                <p data-i18n="productShowcase.alerts.points.one">Alerts by email and message when a temperature or humidity excursion occurs.</p>
+              </li>
+              <li class="showcase-list__item">
+                <span class="showcase-list__icon showcase-list__icon--red">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/showcase-alert-mail.svg#icon"></use></svg>
+                </span>
+                <p data-i18n="productShowcase.alerts.points.two">Sent to the operations or quality manager, according to your configuration.</p>
+              </li>
+              <li class="showcase-list__item">
+                <span class="showcase-list__icon showcase-list__icon--red">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/showcase-alert-chat.svg#icon"></use></svg>
+                </span>
+                <p data-i18n="productShowcase.alerts.points.three">Real-time information to act quickly and avoid losses.</p>
+              </li>
+            </ul>
+
+            <a href="#contact" class="btn showcase-panel__cta showcase-panel__cta--red" data-i18n="productShowcase.alerts.cta">View alerts</a>
+          </div>
+
+          <div class="showcase-panel__visual showcase-panel__visual--alerts" aria-hidden="true">
+            <img
+              class="showcase-shot showcase-shot--alerts"
+              src="assets/images/showcase/trimmed/alerts-trim.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+        </article>
+
+        <article class="showcase-panel showcase-panel--history">
+          <div class="showcase-panel__visual showcase-panel__visual--history" aria-hidden="true">
+            <img
+              class="showcase-shot showcase-shot--history"
+              src="assets/images/showcase/trimmed/history-trim.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+
+          <div class="showcase-panel__copy showcase-panel__copy--orange">
+            <h3 class="showcase-panel__title">
+              <span data-i18n="productShowcase.history.title.start">Historical records and incident reports,</span>
+              <span class="showcase-panel__accent showcase-panel__accent--orange" data-i18n="productShowcase.history.title.accent">whenever needed.</span>
+            </h3>
+
+            <ul class="showcase-list">
+              <li class="showcase-list__item">
+                <span class="showcase-list__icon showcase-list__icon--orange">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/showcase-history-database.svg#icon"></use></svg>
+                </span>
+                <p data-i18n="productShowcase.history.points.one">Complete historical records, each reading is stored by asset, site, or period.</p>
+              </li>
+              <li class="showcase-list__item">
+                <span class="showcase-list__icon showcase-list__icon--orange">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/showcase-history-clipboard.svg#icon"></use></svg>
+                </span>
+                <p data-i18n="productShowcase.history.points.two">Audit-ready reports, generate PDF or CSV reports aligned with DIGESA and MINSA.</p>
+              </li>
+              <li class="showcase-list__item">
+                <span class="showcase-list__icon showcase-list__icon--orange">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/showcase-history-calendar.svg#icon"></use></svg>
+                </span>
+                <p data-i18n="productShowcase.history.points.three">Real-time information to act quickly and avoid losses.</p>
+              </li>
+            </ul>
+
+            <a href="#contact" class="btn showcase-panel__cta showcase-panel__cta--orange" data-i18n="productShowcase.history.cta">View reports</a>
+          </div>
+        </article>
+
+        <article class="showcase-panel showcase-panel--sites showcase-panel--reverse">
+          <div class="showcase-panel__copy showcase-panel__copy--blue">
+            <h3 class="showcase-panel__title">
+              <span data-i18n="productShowcase.sites.title.start">One single, consolidated view for</span>
+              <span class="showcase-panel__accent showcase-panel__accent--blue" data-i18n="productShowcase.sites.title.accent">all your sites</span>
+              <span data-i18n="productShowcase.sites.title.end">and operations.</span>
+            </h3>
+
+            <ul class="showcase-list">
+              <li class="showcase-list__item">
+                <span class="showcase-list__icon showcase-list__icon--blue">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/showcase-sites-map.svg#icon"></use></svg>
+                </span>
+                <p data-i18n="productShowcase.sites.points.one">All your sites, in one place, monitor the performance of each location in real time.</p>
+              </li>
+              <li class="showcase-list__item">
+                <span class="showcase-list__icon showcase-list__icon--blue">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/showcase-sites-bars.svg#icon"></use></svg>
+                </span>
+                <p data-i18n="productShowcase.sites.points.two">Compare and detect instantly, identify sites with alerts or low performance right away.</p>
+              </li>
+              <li class="showcase-list__item">
+                <span class="showcase-list__icon showcase-list__icon--blue">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/showcase-sites-star.svg#icon"></use></svg>
+                </span>
+                <p data-i18n="productShowcase.sites.points.three">Prioritize interventions where they are most needed.</p>
+              </li>
+            </ul>
+
+            <a href="#contact" class="btn showcase-panel__cta showcase-panel__cta--blue" data-i18n="productShowcase.sites.cta">View multi-site</a>
+          </div>
+
+          <div class="showcase-panel__visual showcase-panel__visual--sites" aria-hidden="true">
+            <img
+              class="showcase-shot showcase-shot--sites"
+              src="assets/images/showcase/trimmed/sites-trim.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== Why ColdTrace ========== -->
+    <section id="why" class="why-section" aria-labelledby="why-title">
+      <header class="why-section__header">
+        <h2 id="why-title" data-i18n="why.title">Why ColdTrace?</h2>
+        <p class="why-section__subtitle" data-i18n="why.subtitle">
+          Designed for operations and quality managers in minimarkets, cold rooms, warehouses, and industrial kitchens.
+        </p>
+      </header>
+
+      <div class="why-grid">
+        <article class="why-card">
+          <span class="why-card__quote-mark" aria-hidden="true">&ldquo;</span>
+          <p class="why-card__quote" data-i18n="why.cards.one.quote">ColdTrace helps us keep food fresh and avoid waste.</p>
+          <img class="why-card__avatar" src="assets/images/testimonials/avatar-1.png" alt="Daniel Reyes" loading="lazy" decoding="async">
+          <p class="why-card__role" data-i18n="why.cards.one.role">Store Owner</p>
+          <p class="why-card__name" data-i18n="why.cards.one.name">Daniel Reyes</p>
+        </article>
+
+        <article class="why-card">
+          <span class="why-card__quote-mark" aria-hidden="true">&ldquo;</span>
+          <p class="why-card__quote" data-i18n="why.cards.two.quote">Now I can monitor our fridges from anywhere.</p>
+          <img class="why-card__avatar" src="assets/images/testimonials/avatar-2.png" alt="Laura Mendoza" loading="lazy" decoding="async">
+          <p class="why-card__role" data-i18n="why.cards.two.role">Market Supervisor</p>
+          <p class="why-card__name" data-i18n="why.cards.two.name">Laura Mendoza</p>
+        </article>
+
+        <article class="why-card">
+          <span class="why-card__quote-mark" aria-hidden="true">&ldquo;</span>
+          <p class="why-card__quote" data-i18n="why.cards.three.quote">Now we prevent losses before they happen.</p>
+          <img class="why-card__avatar" src="assets/images/testimonials/avatar-3.png" alt="Andrés Silva" loading="lazy" decoding="async">
+          <p class="why-card__role" data-i18n="why.cards.three.role">Operations Manager</p>
+          <p class="why-card__name" data-i18n="why.cards.three.name">Andrés Silva</p>
+        </article>
+
+        <article class="why-card">
+          <span class="why-card__quote-mark" aria-hidden="true">&ldquo;</span>
+          <p class="why-card__quote" data-i18n="why.cards.four.quote">ColdTrace ensures we meet all compliance standards.</p>
+          <img class="why-card__avatar" src="assets/images/testimonials/avatar-4.png" alt="Ricardo Torres" loading="lazy" decoding="async">
+          <p class="why-card__role" data-i18n="why.cards.four.role">Quality Manager</p>
+          <p class="why-card__name" data-i18n="why.cards.four.name">Ricardo Torres</p>
+        </article>
+
+        <article class="why-card">
+          <span class="why-card__quote-mark" aria-hidden="true">&ldquo;</span>
+          <p class="why-card__quote" data-i18n="why.cards.five.quote">Instant alerts keep products safe and team responsive.</p>
+          <img class="why-card__avatar" src="assets/images/testimonials/avatar-5.png" alt="Sofia Rojas" loading="lazy" decoding="async">
+          <p class="why-card__role" data-i18n="why.cards.five.role">Logistics Coordinator</p>
+          <p class="why-card__name" data-i18n="why.cards.five.name">Sofia Rojas</p>
+        </article>
+
+        <article class="why-card">
+          <span class="why-card__quote-mark" aria-hidden="true">&ldquo;</span>
+          <p class="why-card__quote" data-i18n="why.cards.six.quote">With ColdTrace, audits are easy and stress-free.</p>
+          <img class="why-card__avatar" src="assets/images/testimonials/avatar-6.png" alt="Jorge Castillo" loading="lazy" decoding="async">
+          <p class="why-card__role" data-i18n="why.cards.six.role">Compliance Director</p>
+          <p class="why-card__name" data-i18n="why.cards.six.name">Jorge Castillo</p>
+        </article>
       </div>
     </section>
   </main>

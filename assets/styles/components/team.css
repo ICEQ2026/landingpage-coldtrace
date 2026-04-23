@@ -1,0 +1,38 @@
+/* ==========================================================================
+   Team / About the team section
+   ========================================================================== */
+
+#team .video-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.team-grid {
+  display: grid;
+  gap: var(--spacing-800);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-top: var(--spacing-1200);
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member__photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto var(--spacing-300);
+  object-fit: cover;
+  box-shadow: var(--shadow-card);
+}
+
+.team-member h3 {
+  color: var(--color-text-default);
+  margin-bottom: var(--spacing-100);
+}
+
+.team-member p {
+  font-size: var(--font-size-14);
+  color: var(--color-text-muted);
+}
