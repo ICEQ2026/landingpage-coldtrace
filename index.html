@@ -25,6 +25,7 @@
   <link rel="stylesheet" href="assets/styles/main.css">
   <link rel="stylesheet" href="assets/styles/components/header.css">
   <link rel="stylesheet" href="assets/styles/components/hero.css">
+  <link rel="stylesheet" href="assets/styles/components/features.css">
   <link rel="stylesheet" href="assets/styles/responsive.css">
 </head>
 <body>
@@ -277,6 +278,89 @@
         <label class="visually-hidden" for="hero-email" data-i18n="hero.emailLabel">Your email</label>
         <input id="hero-email" type="email" class="input" placeholder="Mail" data-i18n-placeholder="hero.emailPlaceholder">
         <a href="#demo" class="btn btn--primary" data-i18n="hero.ctaDemo">Try a demo</a>
+      </div>
+    </section>
+
+    <!-- ========== Features ========== -->
+    <section id="features" aria-labelledby="features-title">
+      <header class="section-header section-header--features" data-reveal>
+        <h2 id="features-title" data-i18n="features.title">
+          Everything you need to monitor and control
+        </h2>
+        <p class="section-header__lead" data-i18n="features.subtitle">
+          IoT sensors, live dashboard, multichannel alerts, and regulatory reports - no manual spreadsheets, no lost thermometers, no surprises.
+        </p>
+      </header>
+
+      <div class="feature-diagram">
+        <article class="feature-step feature-step--monitoring" data-reveal="scale-in" style="--reveal-delay: 0ms">
+          <span class="feature-step__eyebrow feature-step__eyebrow--blue" data-i18n="features.steps.monitoring.eyebrow">01 · Monitoring</span>
+          <h3 class="feature-step__title" data-i18n="features.steps.monitoring.title">Real-time IoT sensors monitoring</h3>
+          <div class="feature-step__art" aria-hidden="true">
+            <svg class="feature-illustration feature-illustration--sensor" viewBox="0 0 220 190"><use href="assets/icons/feature-sensor.svg#icon"></use></svg>
+          </div>
+          <p class="feature-step__body" data-i18n="features.steps.monitoring.body">Temperature, humidity, and door openings tracked live in cold rooms, warehouses, industrial kitchens, and minimarkets.</p>
+        </article>
+
+        <div class="feature-note feature-note--history" data-reveal="fade-left" style="--reveal-delay: 150ms">
+          <svg class="feature-note__arrow" viewBox="0 0 120 118" aria-hidden="true"><use href="assets/icons/feature-arrow.svg#icon"></use></svg>
+          <p class="feature-note__copy" data-i18n="features.notes.history">Export your data history by asset, site, or period</p>
+        </div>
+
+        <article class="feature-step feature-step--records" data-reveal="slide-stack">
+          <span class="feature-step__eyebrow feature-step__eyebrow--orange" data-i18n="features.steps.records.eyebrow">02 · Records</span>
+          <h3 class="feature-step__title" data-i18n="features.steps.records.title">Download your complete history</h3>
+          <div class="feature-step__art" aria-hidden="true">
+            <svg class="feature-illustration feature-illustration--records" viewBox="0 0 220 190"><use href="assets/icons/feature-records.svg#icon"></use></svg>
+          </div>
+          <p class="feature-step__body" data-i18n="features.steps.records.body">Every reading is logged and exportable. Download historical data by asset, by site, or by period, in CSV or PDF format.</p>
+        </article>
+
+        <div class="feature-note feature-note--records" data-reveal="fade-left" style="--reveal-delay: 250ms">
+          <svg class="feature-note__arrow" viewBox="0 0 120 118" aria-hidden="true"><use href="assets/icons/feature-arrow.svg#icon"></use></svg>
+          <p class="feature-note__copy" data-i18n="features.notes.records">Download records by event type or sensor</p>
+        </div>
+
+        <article class="feature-step feature-step--alerts" data-reveal="slide-stack">
+          <span class="feature-step__eyebrow feature-step__eyebrow--red" data-i18n="features.steps.alerts.eyebrow">03 · Alerts</span>
+          <h3 class="feature-step__title" data-i18n="features.steps.alerts.title">Notifications the moment something deviates</h3>
+          <div class="feature-step__art" aria-hidden="true">
+            <svg class="feature-illustration feature-illustration--alerts" viewBox="0 0 220 190"><use href="assets/icons/feature-alerts.svg#icon"></use></svg>
+          </div>
+          <p class="feature-step__body" data-i18n="features.steps.alerts.body">Email and messaging alerts when temperature or humidity goes out of range. The operations manager is notified instantly.</p>
+        </article>
+
+        <div class="feature-note feature-note--incidents" data-reveal="fade-left" style="--reveal-delay: 350ms">
+          <svg class="feature-note__arrow" viewBox="0 0 120 118" aria-hidden="true"><use href="assets/icons/feature-arrow.svg#icon"></use></svg>
+          <p class="feature-note__copy" data-i18n="features.notes.incidents">Download alert and incident logs instantly</p>
+        </div>
+
+        <article class="feature-step feature-step--compliance" data-reveal="slide-stack">
+          <span class="feature-step__eyebrow feature-step__eyebrow--green" data-i18n="features.steps.compliance.eyebrow">04 · Compliance</span>
+          <h3 class="feature-step__title" data-i18n="features.steps.compliance.title">Reports for DIGESA and MINSA</h3>
+          <div class="feature-step__art" aria-hidden="true">
+            <svg class="feature-illustration feature-illustration--compliance" viewBox="0 0 220 190"><use href="assets/icons/feature-compliance.svg#icon"></use></svg>
+          </div>
+          <p class="feature-step__body" data-i18n="features.steps.compliance.body">Incident reports and logs exportable in one click. Ready-to-use templates for sanitary inspections for DIGESA and MINSA.</p>
+        </article>
+
+        <aside class="feature-benefits" data-reveal="fade-right">
+          <span class="feature-benefits__label" data-i18n="features.benefits.title">More benefits for you</span>
+          <div class="feature-benefit">
+            <svg class="feature-benefit__icon" viewBox="0 0 56 56" aria-hidden="true"><use href="assets/icons/benefit-clock.svg#icon"></use></svg>
+            <p class="feature-benefit__text">
+              <span class="feature-benefit__highlight" data-i18n="features.benefits.time.label">Save time:</span>
+              <span data-i18n="features.benefits.time.body">automate tasks and eliminate manual records.</span>
+            </p>
+          </div>
+          <div class="feature-benefit">
+            <svg class="feature-benefit__icon" viewBox="0 0 56 56" aria-hidden="true"><use href="assets/icons/benefit-warning.svg#icon"></use></svg>
+            <p class="feature-benefit__text">
+              <span class="feature-benefit__highlight" data-i18n="features.benefits.risk.label">Reduce risks:</span>
+              <span data-i18n="features.benefits.risk.body">act early and prevent incidents before they happen.</span>
+            </p>
+          </div>
+        </aside>
       </div>
     </section>
   </main>
