@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ColdTrace — Intelligent monitoring for cold storage</title>
+  <meta name="description" content="ColdTrace centralizes your cold storage infrastructure on a single intelligent platform: real-time monitoring, hardware health, alerts and regulatory compliance.">
+  <meta name="keywords" content="cold chain, cold storage, IoT monitoring, temperature monitoring, regulatory compliance, HACCP, ColdTrace">
+  <meta name="author" content="ColdTrace">
+
+  <meta property="og:title" content="ColdTrace — Intelligent monitoring for cold storage">
+  <meta property="og:description" content="All your storage infrastructure under a single intelligent platform.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/logo/coldtrace-logo.png">
+
+  <link rel="icon" type="image/png" href="assets/images/logo/coldtrace-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Varela+Round&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/styles/reset.css">
+  <link rel="stylesheet" href="assets/styles/variables.css">
+  <link rel="stylesheet" href="assets/styles/layout.css">
+  <link rel="stylesheet" href="assets/styles/main.css">
+  <link rel="stylesheet" href="assets/styles/components/header.css">
+  <link rel="stylesheet" href="assets/styles/components/hero.css">
+  <link rel="stylesheet" href="assets/styles/components/features.css">
+  <link rel="stylesheet" href="assets/styles/components/showcase.css">
+  <link rel="stylesheet" href="assets/styles/components/team.css">
+  <link rel="stylesheet" href="assets/styles/components/pricing.css">
+  <link rel="stylesheet" href="assets/styles/components/footer.css">
+  <link rel="stylesheet" href="assets/styles/responsive.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="#home" class="navbar__logo" aria-label="ColdTrace home">
+        <img src="assets/images/logo/coldtrace-logo.png" alt="ColdTrace logo" width="228" height="72">
+      </a>
+
+      <button type="button" class="navbar__more" aria-label="Open navigation menu" aria-controls="mobile-nav-panel" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><use href="assets/icons/navbar-more.svg#icon"></use></svg>
+        <span data-i18n="nav.more">More</span>
+      </button>
+
+      <ul class="navbar__menu">
+        <li><a href="#home" class="nav-pill" data-i18n="nav.products">Home</a></li>
+        <li><a href="#features" class="nav-pill" data-i18n="nav.solutions">Features</a></li>
+        <li><a href="#about-product" class="nav-pill" data-i18n="nav.community">Platform</a></li>
+        <li><a href="#why" class="nav-pill" data-i18n="nav.resources">Reviews</a></li>
+        <li><a href="#pricing" class="nav-pill" data-i18n="nav.pricing">Pricing</a></li>
+        <li><a href="#contact" class="nav-pill" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+
+      <div class="navbar__actions">
+        <div class="lang-switcher" role="group" aria-label="Select language">
+          <button type="button" class="lang-switcher__option is-active" data-lang-option="en-US" aria-pressed="true">EN</button>
+          <button type="button" class="lang-switcher__option" data-lang-option="es-419" aria-pressed="false">ES</button>
+        </div>
+        <a href="#signin" class="btn btn--ghost" data-i18n="nav.signin">Sign in</a>
+        <a href="#contact" class="btn btn--primary" data-i18n="nav.register">Register now</a>
+      </div>
+
+      <div class="navbar__mobile-menu" id="mobile-nav-panel" hidden>
+        <div class="navbar__mobile-links" aria-label="Mobile navigation">
+          <a href="#home" class="navbar__mobile-link" data-i18n="nav.products">Home</a>
+          <a href="#features" class="navbar__mobile-link" data-i18n="nav.solutions">Features</a>
+          <a href="#about-product" class="navbar__mobile-link" data-i18n="nav.community">Platform</a>
+          <a href="#why" class="navbar__mobile-link" data-i18n="nav.resources">Reviews</a>
+          <a href="#pricing" class="navbar__mobile-link" data-i18n="nav.pricing">Pricing</a>
+          <a href="#contact" class="navbar__mobile-link" data-i18n="nav.contact">Contact</a>
+        </div>
+
+        <div class="navbar__mobile-language">
+          <p class="navbar__mobile-language-title" data-i18n="nav.language">Language</p>
+          <div class="lang-switcher lang-switcher--mobile" role="group" aria-label="Select language">
+            <button type="button" class="lang-switcher__option is-active" data-lang-option="en-US" aria-pressed="true">EN</button>
+            <button type="button" class="lang-switcher__option" data-lang-option="es-419" aria-pressed="false">ES</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+    <!-- ========== Hero ========== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__text">
+        <h1 id="hero-title" data-i18n="hero.title">
+          All your storage infrastructure under a single intelligent platform
+        </h1>
+        <p class="hero__subtitle" data-i18n="hero.subtitle">
+          The dashboard to centralize your cold storage, manage hardware health, and ensure 100% regulatory compliance.
+        </p>
+      </div>
+
+      <div class="hero__visual" aria-hidden="true">
+        <div class="hero__centerpiece">
+          <img class="hero__centerpiece-art" src="assets/images/hero/centerpiece.png" alt="">
+        </div>
+
+        <!-- Current Balance with gauge meter -->
+        <article class="dash-card dash-card--balance">
+          <header class="dash-card__title">Current Balance</header>
+          <div class="dash-card__head">
+            <div class="dash-card__head-left">
+              <strong class="dash-card__amount">$20,000</strong>
+              <button type="button" class="icon-btn" aria-label="Edit">
+                <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><use href="assets/icons/hero-edit.svg#icon"></use></svg>
+              </button>
+            </div>
+            <span class="dash-card__date">May, 2026</span>
+          </div>
+          <div class="dash-card__details">
+            <div class="dash-metric-col">
+              <div class="dash-metric">
+                <svg class="dash-metric__icon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><use href="assets/icons/hero-achievement.svg#icon"></use></svg>
+                <div>
+                  <span class="dash-metric__label">Target Achieved</span>
+                  <strong class="dash-metric__value">$12,500</strong>
+                </div>
+              </div>
+              <div class="dash-metric">
+                <svg class="dash-metric__icon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><use href="assets/icons/hero-target.svg#icon"></use></svg>
+                <div>
+                  <span class="dash-metric__label">This month Target</span>
+                  <strong class="dash-metric__value">$20,000</strong>
+                </div>
+              </div>
+            </div>
+            <div class="gauge">
+              <svg viewBox="0 0 140 80" width="140" height="80" aria-hidden="true"><use href="assets/icons/hero-gauge.svg#icon"></use></svg>
+              <div class="gauge__range">
+                <span>$0</span>
+                <strong>12K</strong>
+                <span>$20k</span>
+              </div>
+              <p class="gauge__label">Target vs Achievement</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Storage Conditions -->
+        <article class="dash-card dash-card--storage">
+          <header class="dash-card__title">Storage Conditions</header>
+          <ul class="bar-list">
+            <li>
+              <span class="bar-list__icon bar-list__icon--orange" aria-hidden="true">
+                <svg viewBox="0 0 16 16" width="11" height="11"><use href="assets/icons/hero-storage-cold.svg#icon"></use></svg>
+              </span>
+              <span class="bar-list__label">Cold Storage</span>
+              <span class="bar"><span class="bar__fill bar__fill--orange" style="width:52%"></span></span>
+              <span class="bar-list__value">52%</span>
+            </li>
+            <li>
+              <span class="bar-list__icon bar-list__icon--green" aria-hidden="true">
+                <svg viewBox="0 0 16 16" width="11" height="11"><use href="assets/icons/hero-storage-frozen.svg#icon"></use></svg>
+              </span>
+              <span class="bar-list__label">Frozen Storage</span>
+              <span class="bar"><span class="bar__fill bar__fill--green" style="width:21%"></span></span>
+              <span class="bar-list__value">21%</span>
+            </li>
+            <li>
+              <span class="bar-list__icon bar-list__icon--blue" aria-hidden="true">
+                <svg viewBox="0 0 16 16" width="11" height="11"><use href="assets/icons/hero-storage-ambient.svg#icon"></use></svg>
+              </span>
+              <span class="bar-list__label">Ambient Storage</span>
+              <span class="bar"><span class="bar__fill bar__fill--blue" style="width:74%"></span></span>
+              <span class="bar-list__value">74%</span>
+            </li>
+          </ul>
+        </article>
+
+        <!-- Project Contributors (with avatars) -->
+        <article class="dash-card dash-card--contributors">
+          <header class="dash-card__title">Project Contributors (task&rsquo;s)</header>
+          <ul class="contributor-list">
+            <li>
+              <img class="contributor-list__avatar" src="assets/images/dashboard/avatar-byewind.png" alt="">
+              <span class="contributor-list__name">ByeWind</span>
+              <span class="badge badge--purple">In Progress</span>
+            </li>
+            <li>
+              <img class="contributor-list__avatar" src="assets/images/dashboard/avatar-natali.png" alt="">
+              <span class="contributor-list__name">Natali Craig</span>
+              <span class="badge badge--green">Complete</span>
+            </li>
+            <li>
+              <img class="contributor-list__avatar" src="assets/images/dashboard/avatar-drew.png" alt="">
+              <span class="contributor-list__name">Drew Cano</span>
+              <span class="badge badge--blue">Pending</span>
+            </li>
+            <li>
+              <img class="contributor-list__avatar" src="assets/images/dashboard/avatar-orlando.png" alt="">
+              <span class="contributor-list__name">Orlando Diggs</span>
+              <span class="badge badge--yellow">Approved</span>
+            </li>
+            <li>
+              <img class="contributor-list__avatar" src="assets/images/dashboard/avatar-andi.png" alt="">
+              <span class="contributor-list__name">Andi Lane</span>
+              <span class="badge badge--gray">Rejected</span>
+            </li>
+          </ul>
+        </article>
+
+        <!-- Historical Temp -->
+        <article class="dash-card dash-card--temp">
+          <header class="dash-card__title">Historical Temp (°C)</header>
+          <strong class="dash-card__big">+34%</strong>
+          <svg class="dash-card__spark" viewBox="0 0 120 40" preserveAspectRatio="none" aria-hidden="true"><use href="assets/icons/hero-sparkline.svg#icon"></use></svg>
+        </article>
+
+        <!-- Quality Metrics (3 overlapping circles) -->
+        <article class="dash-card dash-card--quality">
+          <header class="dash-card__title">Quality Metrics</header>
+          <div class="quality-circles" aria-hidden="true">
+            <div class="quality-circle quality-circle--orange">
+              <span class="quality-circle__pct">85%</span>
+              <span class="quality-circle__name">Food Taste</span>
+            </div>
+            <div class="quality-circle quality-circle--blue">
+              <span class="quality-circle__pct">92%</span>
+              <span class="quality-circle__name">Packaging</span>
+            </div>
+            <div class="quality-circle quality-circle--purple">
+              <span class="quality-circle__pct">85%</span>
+              <span class="quality-circle__name">Hygiene</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 12°C Optimal -->
+        <article class="dash-card dash-card--optimal">
+          <strong class="dash-card__big">12 °C</strong>
+          <span class="dash-card__date">12/20/20</span>
+          <svg class="dash-card__icon" viewBox="0 0 32 32" width="32" height="26" aria-hidden="true"><use href="assets/icons/hero-optimal.svg#icon"></use></svg>
+          <span class="dash-card__tag">Optimal</span>
+        </article>
+
+        <!-- Performance bar chart -->
+        <article class="dash-card dash-card--performance">
+          <header class="dash-card__title">Performance</header>
+          <div class="perf-chart" aria-hidden="true">
+            <div class="perf-group">
+              <span class="perf-bar perf-bar--dark" style="height:78%"></span>
+              <span class="perf-bar perf-bar--light" style="height:44%"></span>
+              <span class="perf-group__label">01</span>
+            </div>
+            <div class="perf-group">
+              <span class="perf-bar perf-bar--light" style="height:60%"></span>
+              <span class="perf-bar perf-bar--dark" style="height:82%"></span>
+              <span class="perf-group__label">02</span>
+            </div>
+            <div class="perf-group">
+              <span class="perf-bar perf-bar--dark" style="height:70%"></span>
+              <span class="perf-bar perf-bar--light" style="height:36%"></span>
+              <span class="perf-group__label">03</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Clock card -->
+        <article class="dash-card dash-card--clock">
+          <svg viewBox="0 0 48 48" width="40" height="40" aria-hidden="true"><use href="assets/icons/hero-clock.svg#icon"></use></svg>
+        </article>
+
+        <!-- Analysis Report row -->
+        <article class="dash-card dash-card--report">
+          <span class="report__title">Analysis Report</span>
+          <span class="report__industry">Analysis and maintenance</span>
+          <span class="report__date">July 25, 2025</span>
+          <span class="report__status">
+            <span class="status-badge status-badge--red">
+              <span class="status-badge__dot"></span>Progress
+            </span>
+          </span>
+        </article>
+      </div>
+
+      <div class="hero__cta">
+        <label class="visually-hidden" for="hero-email" data-i18n="hero.emailLabel">Your email</label>
+        <input id="hero-email" type="email" class="input" placeholder="Mail" data-i18n-placeholder="hero.emailPlaceholder">
+        <a href="#demo" class="btn btn--primary" data-i18n="hero.ctaDemo">Try a demo</a>
+      </div>
+    </section>
+
+    <!-- ========== Features ========== -->
+    <section id="features" aria-labelledby="features-title">
+      <header class="section-header section-header--features" data-reveal>
+        <h2 id="features-title" data-i18n="features.title">
+          Everything you need to monitor and control
+        </h2>
+        <p class="section-header__lead" data-i18n="features.subtitle">
+          IoT sensors, live dashboard, multichannel alerts, and regulatory reports - no manual spreadsheets, no lost thermometers, no surprises.
+        </p>
+      </header>
+
+      <div class="feature-diagram">
+        <article class="feature-step feature-step--monitoring" data-reveal="scale-in" style="--reveal-delay: 0ms">
+          <span class="feature-step__eyebrow feature-step__eyebrow--blue" data-i18n="features.steps.monitoring.eyebrow">01 · Monitoring</span>
+          <h3 class="feature-step__title" data-i18n="features.steps.monitoring.title">Real-time IoT sensors monitoring</h3>
+          <div class="feature-step__art" aria-hidden="true">
+            <svg class="feature-illustration feature-illustration--sensor" viewBox="0 0 220 190"><use href="assets/icons/feature-sensor.svg#icon"></use></svg>
+          </div>
+          <p class="feature-step__body" data-i18n="features.steps.monitoring.body">Temperature, humidity, and door openings tracked live in cold rooms, warehouses, industrial kitchens, and minimarkets.</p>
+        </article>
+
+        <div class="feature-note feature-note--history" data-reveal="fade-left" style="--reveal-delay: 150ms">
+          <svg class="feature-note__arrow" viewBox="0 0 120 118" aria-hidden="true"><use href="assets/icons/feature-arrow.svg#icon"></use></svg>
+          <p class="feature-note__copy" data-i18n="features.notes.history">Export your data history by asset, site, or period</p>
+        </div>
+
+        <article class="feature-step feature-step--records" data-reveal="slide-stack">
+          <span class="feature-step__eyebrow feature-step__eyebrow--orange" data-i18n="features.steps.records.eyebrow">02 · Records</span>
+          <h3 class="feature-step__title" data-i18n="features.steps.records.title">Download your complete history</h3>
+          <div class="feature-step__art" aria-hidden="true">
+            <svg class="feature-illustration feature-illustration--records" viewBox="0 0 220 190"><use href="assets/icons/feature-records.svg#icon"></use></svg>
+          </div>
+          <p class="feature-step__body" data-i18n="features.steps.records.body">Every reading is logged and exportable. Download historical data by asset, by site, or by period, in CSV or PDF format.</p>
+        </article>
+
+        <div class="feature-note feature-note--records" data-reveal="fade-left" style="--reveal-delay: 250ms">
+          <svg class="feature-note__arrow" viewBox="0 0 120 118" aria-hidden="true"><use href="assets/icons/feature-arrow.svg#icon"></use></svg>
+          <p class="feature-note__copy" data-i18n="features.notes.records">Download records by event type or sensor</p>
+        </div>
+
+        <article class="feature-step feature-step--alerts" data-reveal="slide-stack">
+          <span class="feature-step__eyebrow feature-step__eyebrow--red" data-i18n="features.steps.alerts.eyebrow">03 · Alerts</span>
+          <h3 class="feature-step__title" data-i18n="features.steps.alerts.title">Notifications the moment something deviates</h3>
+          <div class="feature-step__art" aria-hidden="true">
+            <svg class="feature-illustration feature-illustration--alerts" viewBox="0 0 220 190"><use href="assets/icons/feature-alerts.svg#icon"></use></svg>
+          </div>
+          <p class="feature-step__body" data-i18n="features.steps.alerts.body">Email and messaging alerts when temperature or humidity goes out of range. The operations manager is notified instantly.</p>
+        </article>
+
+        <div class="feature-note feature-note--incidents" data-reveal="fade-left" style="--reveal-delay: 350ms">
+          <svg class="feature-note__arrow" viewBox="0 0 120 118" aria-hidden="true"><use href="assets/icons/feature-arrow.svg#icon"></use></svg>
+          <p class="feature-note__copy" data-i18n="features.notes.incidents">Download alert and incident logs instantly</p>
+        </div>
+
+        <article class="feature-step feature-step--compliance" data-reveal="slide-stack">
+          <span class="feature-step__eyebrow feature-step__eyebrow--green" data-i18n="features.steps.compliance.eyebrow">04 · Compliance</span>
+          <h3 class="feature-step__title" data-i18n="features.steps.compliance.title">Reports for DIGESA and MINSA</h3>
+          <div class="feature-step__art" aria-hidden="true">
+            <svg class="feature-illustration feature-illustration--compliance" viewBox="0 0 220 190"><use href="assets/icons/feature-compliance.svg#icon"></use></svg>
+          </div>
+          <p class="feature-step__body" data-i18n="features.steps.compliance.body">Incident reports and logs exportable in one click. Ready-to-use templates for sanitary inspections for DIGESA and MINSA.</p>
+        </article>
+
+        <aside class="feature-benefits" data-reveal="fade-right">
+          <span class="feature-benefits__label" data-i18n="features.benefits.title">More benefits for you</span>
+          <div class="feature-benefit">
+            <svg class="feature-benefit__icon" viewBox="0 0 56 56" aria-hidden="true"><use href="assets/icons/benefit-clock.svg#icon"></use></svg>
+            <p class="feature-benefit__text">
+              <span class="feature-benefit__highlight" data-i18n="features.benefits.time.label">Save time:</span>
+              <span data-i18n="features.benefits.time.body">automate tasks and eliminate manual records.</span>
+            </p>
+          </div>
+          <div class="feature-benefit">
+            <svg class="feature-benefit__icon" viewBox="0 0 56 56" aria-hidden="true"><use href="assets/icons/benefit-warning.svg#icon"></use></svg>
+            <p class="feature-benefit__text">
+              <span class="feature-benefit__highlight" data-i18n="features.benefits.risk.label">Reduce risks:</span>
+              <span data-i18n="features.benefits.risk.body">act early and prevent incidents before they happen.</span>
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ========== Product showcase ========== -->
+    <section id="about-product" class="product-showcase" aria-labelledby="about-product-title">
+      <h2 id="about-product-title" class="visually-hidden" data-i18n="productShowcase.a11yTitle">ColdTrace platform showcase</h2>
+
+      <div class="product-showcase__stack">
+        <article class="showcase-panel showcase-panel--thermal">
+          <div class="showcase-panel__visual showcase-panel__visual--thermal" aria-hidden="true">
+            <img
+              class="showcase-shot showcase-shot--thermal"
+              src="assets/images/showcase/trimmed/thermal-trim.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+
+          <div class="showcase-panel__copy showcase-panel__copy--green">
+            <h3 class="showcase-panel__title">
+              <span data-i18n="productShowcase.thermal.title.start">See every thermal excursion</span>
+              <span class="showcase-panel__accent showcase-panel__accent--green" data-i18n="productShowcase.thermal.title.accent">before</span>
+              <span data-i18n="productShowcase.thermal.title.end">it turns into waste.</span>
+            </h3>
+
+            <ul class="showcase-list">
+              <li class="showcase-list__item">
+                <span class="showcase-list__icon showcase-list__icon--green">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/showcase-thermal-wave.svg#icon"></use></svg>
+                </span>
+                <p data-i18n="productShowcase.thermal.points.one">Live charts by asset, with configurable limits and automatic markers for every door opening.</p>
+              </li>
+              <li class="showcase-list__item">
+                <span class="showcase-list__icon showcase-list__icon--green">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/showcase-thermal-bell.svg#icon"></use></svg>
+                </span>
+                <p data-i18n="productShowcase.thermal.points.two">Instant alerts for temperature or humidity excursions.</p>
+              </li>
+              <li class="showcase-list__item">
+                <span class="showcase-list__icon showcase-list__icon--green">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/showcase-thermal-doc.svg#icon"></use></svg>
+                </span>
+                <p data-i18n="productShowcase.thermal.points.three">Zero spreadsheets, zero lost thermometers.</p>
+              </li>
+            </ul>
+
+            <a href="#contact" class="btn showcase-panel__cta showcase-panel__cta--green" data-i18n="productShowcase.thermal.cta">View dashboard</a>
+          </div>
+        </article>
+
+        <article class="showcase-panel showcase-panel--alerts showcase-panel--reverse">
+          <div class="showcase-panel__copy showcase-panel__copy--red">
+            <h3 class="showcase-panel__title">
+              <span data-i18n="productShowcase.alerts.title.start">Alerts that reach the</span>
+              <span class="showcase-panel__accent showcase-panel__accent--red" data-i18n="productShowcase.alerts.title.accent">right person,</span>
+              <span data-i18n="productShowcase.alerts.title.end">at the right time, always.</span>
+            </h3>
+
+            <ul class="showcase-list">
+              <li class="showcase-list__item">
+                <span class="showcase-list__icon showcase-list__icon--red">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/showcase-alert-warning.svg#icon"></use></svg>
+                </span>
+                <p data-i18n="productShowcase.alerts.points.one">Alerts by email and message when a temperature or humidity excursion occurs.</p>
+              </li>
+              <li class="showcase-list__item">
+                <span class="showcase-list__icon showcase-list__icon--red">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/showcase-alert-mail.svg#icon"></use></svg>
+                </span>
+                <p data-i18n="productShowcase.alerts.points.two">Sent to the operations or quality manager, according to your configuration.</p>
+              </li>
+              <li class="showcase-list__item">
+                <span class="showcase-list__icon showcase-list__icon--red">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/showcase-alert-chat.svg#icon"></use></svg>
+                </span>
+                <p data-i18n="productShowcase.alerts.points.three">Real-time information to act quickly and avoid losses.</p>
+              </li>
+            </ul>
+
+            <a href="#contact" class="btn showcase-panel__cta showcase-panel__cta--red" data-i18n="productShowcase.alerts.cta">View alerts</a>
+          </div>
+
+          <div class="showcase-panel__visual showcase-panel__visual--alerts" aria-hidden="true">
+            <img
+              class="showcase-shot showcase-shot--alerts"
+              src="assets/images/showcase/trimmed/alerts-trim.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+        </article>
+
+        <article class="showcase-panel showcase-panel--history">
+          <div class="showcase-panel__visual showcase-panel__visual--history" aria-hidden="true">
+            <img
+              class="showcase-shot showcase-shot--history"
+              src="assets/images/showcase/trimmed/history-trim.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+
+          <div class="showcase-panel__copy showcase-panel__copy--orange">
+            <h3 class="showcase-panel__title">
+              <span data-i18n="productShowcase.history.title.start">Historical records and incident reports,</span>
+              <span class="showcase-panel__accent showcase-panel__accent--orange" data-i18n="productShowcase.history.title.accent">whenever needed.</span>
+            </h3>
+
+            <ul class="showcase-list">
+              <li class="showcase-list__item">
+                <span class="showcase-list__icon showcase-list__icon--orange">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/showcase-history-database.svg#icon"></use></svg>
+                </span>
+                <p data-i18n="productShowcase.history.points.one">Complete historical records, each reading is stored by asset, site, or period.</p>
+              </li>
+              <li class="showcase-list__item">
+                <span class="showcase-list__icon showcase-list__icon--orange">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/showcase-history-clipboard.svg#icon"></use></svg>
+                </span>
+                <p data-i18n="productShowcase.history.points.two">Audit-ready reports, generate PDF or CSV reports aligned with DIGESA and MINSA.</p>
+              </li>
+              <li class="showcase-list__item">
+                <span class="showcase-list__icon showcase-list__icon--orange">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/showcase-history-calendar.svg#icon"></use></svg>
+                </span>
+                <p data-i18n="productShowcase.history.points.three">Real-time information to act quickly and avoid losses.</p>
+              </li>
+            </ul>
+
+            <a href="#contact" class="btn showcase-panel__cta showcase-panel__cta--orange" data-i18n="productShowcase.history.cta">View reports</a>
+          </div>
+        </article>
+
+        <article class="showcase-panel showcase-panel--sites showcase-panel--reverse">
+          <div class="showcase-panel__copy showcase-panel__copy--blue">
+            <h3 class="showcase-panel__title">
+              <span data-i18n="productShowcase.sites.title.start">One single, consolidated view for</span>
+              <span class="showcase-panel__accent showcase-panel__accent--blue" data-i18n="productShowcase.sites.title.accent">all your sites</span>
+              <span data-i18n="productShowcase.sites.title.end">and operations.</span>
+            </h3>
+
+            <ul class="showcase-list">
+              <li class="showcase-list__item">
+                <span class="showcase-list__icon showcase-list__icon--blue">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/showcase-sites-map.svg#icon"></use></svg>
+                </span>
+                <p data-i18n="productShowcase.sites.points.one">All your sites, in one place, monitor the performance of each location in real time.</p>
+              </li>
+              <li class="showcase-list__item">
+                <span class="showcase-list__icon showcase-list__icon--blue">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/showcase-sites-bars.svg#icon"></use></svg>
+                </span>
+                <p data-i18n="productShowcase.sites.points.two">Compare and detect instantly, identify sites with alerts or low performance right away.</p>
+              </li>
+              <li class="showcase-list__item">
+                <span class="showcase-list__icon showcase-list__icon--blue">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/showcase-sites-star.svg#icon"></use></svg>
+                </span>
+                <p data-i18n="productShowcase.sites.points.three">Prioritize interventions where they are most needed.</p>
+              </li>
+            </ul>
+
+            <a href="#contact" class="btn showcase-panel__cta showcase-panel__cta--blue" data-i18n="productShowcase.sites.cta">View multi-site</a>
+          </div>
+
+          <div class="showcase-panel__visual showcase-panel__visual--sites" aria-hidden="true">
+            <img
+              class="showcase-shot showcase-shot--sites"
+              src="assets/images/showcase/trimmed/sites-trim.png"
+              alt=""
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== Why ColdTrace ========== -->
+    <section id="why" class="why-section" aria-labelledby="why-title">
+      <header class="why-section__header">
+        <h2 id="why-title" data-i18n="why.title">Why ColdTrace?</h2>
+        <p class="why-section__subtitle" data-i18n="why.subtitle">
+          Designed for operations and quality managers in minimarkets, cold rooms, warehouses, and industrial kitchens.
+        </p>
+      </header>
+
+      <div class="why-grid">
+        <article class="why-card">
+          <span class="why-card__quote-mark" aria-hidden="true">&ldquo;</span>
+          <p class="why-card__quote" data-i18n="why.cards.one.quote">ColdTrace helps us keep food fresh and avoid waste.</p>
+          <img class="why-card__avatar" src="assets/images/testimonials/avatar-1.png" alt="Daniel Reyes" loading="lazy" decoding="async">
+          <p class="why-card__role" data-i18n="why.cards.one.role">Store Owner</p>
+          <p class="why-card__name" data-i18n="why.cards.one.name">Daniel Reyes</p>
+        </article>
+
+        <article class="why-card">
+          <span class="why-card__quote-mark" aria-hidden="true">&ldquo;</span>
+          <p class="why-card__quote" data-i18n="why.cards.two.quote">Now I can monitor our fridges from anywhere.</p>
+          <img class="why-card__avatar" src="assets/images/testimonials/avatar-2.png" alt="Laura Mendoza" loading="lazy" decoding="async">
+          <p class="why-card__role" data-i18n="why.cards.two.role">Market Supervisor</p>
+          <p class="why-card__name" data-i18n="why.cards.two.name">Laura Mendoza</p>
+        </article>
+
+        <article class="why-card">
+          <span class="why-card__quote-mark" aria-hidden="true">&ldquo;</span>
+          <p class="why-card__quote" data-i18n="why.cards.three.quote">Now we prevent losses before they happen.</p>
+          <img class="why-card__avatar" src="assets/images/testimonials/avatar-3.png" alt="Andrés Silva" loading="lazy" decoding="async">
+          <p class="why-card__role" data-i18n="why.cards.three.role">Operations Manager</p>
+          <p class="why-card__name" data-i18n="why.cards.three.name">Andrés Silva</p>
+        </article>
+
+        <article class="why-card">
+          <span class="why-card__quote-mark" aria-hidden="true">&ldquo;</span>
+          <p class="why-card__quote" data-i18n="why.cards.four.quote">ColdTrace ensures we meet all compliance standards.</p>
+          <img class="why-card__avatar" src="assets/images/testimonials/avatar-4.png" alt="Ricardo Torres" loading="lazy" decoding="async">
+          <p class="why-card__role" data-i18n="why.cards.four.role">Quality Manager</p>
+          <p class="why-card__name" data-i18n="why.cards.four.name">Ricardo Torres</p>
+        </article>
+
+        <article class="why-card">
+          <span class="why-card__quote-mark" aria-hidden="true">&ldquo;</span>
+          <p class="why-card__quote" data-i18n="why.cards.five.quote">Instant alerts keep products safe and team responsive.</p>
+          <img class="why-card__avatar" src="assets/images/testimonials/avatar-5.png" alt="Sofia Rojas" loading="lazy" decoding="async">
+          <p class="why-card__role" data-i18n="why.cards.five.role">Logistics Coordinator</p>
+          <p class="why-card__name" data-i18n="why.cards.five.name">Sofia Rojas</p>
+        </article>
+
+        <article class="why-card">
+          <span class="why-card__quote-mark" aria-hidden="true">&ldquo;</span>
+          <p class="why-card__quote" data-i18n="why.cards.six.quote">With ColdTrace, audits are easy and stress-free.</p>
+          <img class="why-card__avatar" src="assets/images/testimonials/avatar-6.png" alt="Jorge Castillo" loading="lazy" decoding="async">
+          <p class="why-card__role" data-i18n="why.cards.six.role">Compliance Director</p>
+          <p class="why-card__name" data-i18n="why.cards.six.name">Jorge Castillo</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== Pricing ========== -->
+    <section id="pricing" class="overview-section" aria-labelledby="overview-title">
+      <h2 id="overview-title" class="visually-hidden" data-i18n="overview.title">How ColdTrace works</h2>
+
+      <nav class="overview-rail" aria-label="Platform sections">
+        <button type="button" class="overview-rail__item">
+          <img class="overview-rail__icon" src="assets/images/overview/register-icon.png" alt="" loading="lazy" decoding="async">
+          <span class="overview-rail__label" data-i18n="overview.rail.register">Register</span>
+        </button>
+
+        <button type="button" class="overview-rail__item">
+          <img class="overview-rail__icon" src="assets/images/overview/resources-icon.png" alt="" loading="lazy" decoding="async">
+          <span class="overview-rail__label" data-i18n="overview.rail.resources">Resources</span>
+        </button>
+
+        <button type="button" class="overview-rail__item">
+          <img class="overview-rail__icon" src="assets/images/overview/pricing-icon.png" alt="" loading="lazy" decoding="async">
+          <span class="overview-rail__label" data-i18n="overview.rail.pricing">Pricing</span>
+        </button>
+
+        <button type="button" class="overview-rail__item">
+          <img class="overview-rail__icon" src="assets/images/overview/community-icon.png" alt="" loading="lazy" decoding="async">
+          <span class="overview-rail__label" data-i18n="overview.rail.community">Community</span>
+        </button>
+
+        <button type="button" class="overview-rail__item">
+          <img class="overview-rail__icon" src="assets/images/overview/contact-icon.png" alt="" loading="lazy" decoding="async">
+          <span class="overview-rail__label" data-i18n="overview.rail.contact">Contact</span>
+        </button>
+      </nav>
+
+      <div class="overview-grid">
+        <article class="overview-card">
+          <div class="overview-card__head">
+            <svg class="overview-card__info" viewBox="0 0 48 48" aria-hidden="true"><use href="assets/icons/overview-info.svg#icon"></use></svg>
+            <h3 data-i18n="overview.columns.configure.title">Configure</h3>
+          </div>
+          <p data-i18n="overview.columns.configure.body">Assign sensors by cold room, define ranges and tolerances by product type, and choose responsible staff by shift. Everything is versioned.</p>
+        </article>
+
+        <article class="overview-card">
+          <div class="overview-card__head">
+            <svg class="overview-card__info" viewBox="0 0 48 48" aria-hidden="true"><use href="assets/icons/overview-info.svg#icon"></use></svg>
+            <h3 data-i18n="overview.columns.monitor.title">Monitor</h3>
+          </div>
+          <p data-i18n="overview.columns.monitor.body">View by site, by zone, and by asset. Complete historical records, exportable in CSV or PDF. Alerts arrive before the product is damaged.</p>
+        </article>
+
+        <article class="overview-card">
+          <div class="overview-card__head">
+            <svg class="overview-card__info" viewBox="0 0 48 48" aria-hidden="true"><use href="assets/icons/overview-info.svg#icon"></use></svg>
+            <h3 data-i18n="overview.columns.audit.title">Audit</h3>
+          </div>
+          <p data-i18n="overview.columns.audit.body">Every reading is recorded and available for download. Export the full report, ready for DIGESA, MINSA inspections or internal audits. Start right now!</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== Final Sign-up ========== -->
+    <section id="contact" class="signup-shell" aria-labelledby="contact-title">
+      <div class="signup-shell__stage">
+        <img class="signup-shell__art signup-shell__art--left" src="assets/images/final-section/signup-art-left.png" alt="" loading="eager" decoding="async">
+        <img class="signup-shell__art signup-shell__art--right" src="assets/images/final-section/signup-art-right.png" alt="" loading="eager" decoding="async">
+
+        <form class="signup-card" novalidate>
+          <h2 id="contact-title" class="signup-card__title" data-i18n="contact.title">Create Account now</h2>
+          <p class="signup-card__subtitle" data-i18n="contact.subtitle">Start monitoring now</p>
+
+          <div class="signup-field">
+            <label for="first-name" data-i18n="contact.labels.name">Your name</label>
+            <div class="signup-card__split">
+              <input id="first-name" class="input" type="text" autocomplete="given-name" data-i18n-placeholder="contact.placeholders.firstName" placeholder="First name">
+              <input id="last-name" class="input" type="text" autocomplete="family-name" data-i18n-placeholder="contact.placeholders.lastName" placeholder="Last name">
+            </div>
+          </div>
+
+          <div class="signup-field">
+            <label for="signup-email" data-i18n="contact.labels.email">Your email address</label>
+            <input id="signup-email" class="input" type="email" autocomplete="email" data-i18n-placeholder="contact.placeholders.email" placeholder="example_123@email.com">
+          </div>
+
+          <div class="signup-field">
+            <label for="signup-password" data-i18n="contact.labels.password">Choose a password</label>
+            <div class="signup-password">
+              <input id="signup-password" class="input" type="password" autocomplete="new-password" data-i18n-placeholder="contact.placeholders.password" placeholder="........">
+              <button type="button" class="signup-password__toggle" aria-label="Show password">
+                <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><use href="assets/icons/signup-eye-off.svg#icon"></use></svg>
+              </button>
+            </div>
+          </div>
+
+          <button type="submit" class="btn signup-card__submit" data-i18n="contact.cta">Submit</button>
+
+          <p class="signup-card__terms">
+            <span data-i18n="contact.terms.prefix">By creating your account, you agree to the</span>
+            <span data-i18n="contact.terms.link">Terms and Conditions.</span>
+          </p>
+
+          <div class="signup-card__divider">
+            <span data-i18n="contact.alt">or sign up with</span>
+          </div>
+
+          <div class="signup-card__social">
+            <a href="#google" class="signup-card__social-btn signup-card__social-btn--google">
+              <span class="signup-card__social-icon signup-card__social-icon--google" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26"><use href="assets/icons/signup-google.svg#icon"></use></svg>
+              </span>
+              <span data-i18n="contact.google">Sign up with Google</span>
+            </a>
+
+            <a href="#apple" class="signup-card__social-btn signup-card__social-btn--apple">
+              <span class="signup-card__social-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26"><use href="assets/icons/signup-apple.svg#icon"></use></svg>
+              </span>
+              <span data-i18n="contact.apple">Sign up with Apple</span>
+            </a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/scripts/i18n.js"></script>
+  <script src="assets/scripts/navigation.js"></script>
+  <script src="assets/scripts/scroll-reveal.js" defer></script>
+  <script src="assets/scripts/main.js"></script>
+</body>
+</html>
