@@ -16,11 +16,13 @@
     const obs = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (entry.isIntersecting) entry.target.classList.add('is-revealed');
-          else if (entry.boundingClientRect.top > 0) entry.target.classList.remove('is-revealed');
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-revealed');
+            obs.unobserve(entry.target);
+          }
         });
       },
-      { threshold: 0.2, rootMargin: '0px 0px -80px 0px' }
+      { threshold: 0.15, rootMargin: '0px 0px -60px 0px' }
     );
     others.forEach((el) => obs.observe(el));
   }

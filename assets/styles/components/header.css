@@ -59,7 +59,7 @@
   align-items: center;
   justify-content: space-between;
   gap: var(--spacing-400);
-  max-width: 1168px;
+  max-width: 1240px;
   margin: 0 auto;
   padding: 22px 16px 10px;
   flex-wrap: nowrap;
@@ -70,6 +70,7 @@
   align-items: center;
   flex-shrink: 0;
   height: 80px;
+  min-width: 232px;
   overflow: visible;
 }
 
@@ -181,7 +182,7 @@
 .navbar__menu {
   display: flex;
   flex-wrap: nowrap;
-  gap: 10px;
+  gap: 6px;
   align-items: center;
   justify-content: center;
   flex: 1 1 auto;
