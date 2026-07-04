@@ -50,6 +50,7 @@
         <li><a href="#about-product" class="nav-pill" data-i18n="nav.community">Platform</a></li>
         <li><a href="#why" class="nav-pill" data-i18n="nav.resources">Reviews</a></li>
         <li><a href="#pricing" class="nav-pill" data-i18n="nav.pricing">Pricing</a></li>
+        <li><a href="#team" class="nav-pill" data-i18n="nav.team">Team</a></li>
         <li><a href="#contact" class="nav-pill" data-i18n="nav.contact">Contact</a></li>
       </ul>
 
@@ -58,8 +59,8 @@
           <button type="button" class="lang-switcher__option is-active" data-lang-option="en-US" aria-pressed="true">EN</button>
           <button type="button" class="lang-switcher__option" data-lang-option="es-419" aria-pressed="false">ES</button>
         </div>
-        <a href="#signin" class="btn btn--ghost" data-i18n="nav.signin">Sign in</a>
-        <a href="#contact" class="btn btn--primary" data-i18n="nav.register">Register now</a>
+        <a href="https://coldtrace-frontend-liard.vercel.app/identity-access/sign-in" class="btn btn--ghost" data-i18n="nav.signin">Sign in</a>
+        <a href="https://coldtrace-frontend-liard.vercel.app/identity-access/sign-up" class="btn btn--primary" data-i18n="nav.register">Register now</a>
       </div>
 
       <div class="navbar__mobile-menu" id="mobile-nav-panel" hidden>
@@ -69,6 +70,7 @@
           <a href="#about-product" class="navbar__mobile-link" data-i18n="nav.community">Platform</a>
           <a href="#why" class="navbar__mobile-link" data-i18n="nav.resources">Reviews</a>
           <a href="#pricing" class="navbar__mobile-link" data-i18n="nav.pricing">Pricing</a>
+          <a href="#team" class="navbar__mobile-link" data-i18n="nav.team">Team</a>
           <a href="#contact" class="navbar__mobile-link" data-i18n="nav.contact">Contact</a>
         </div>
 
@@ -546,6 +548,28 @@
       </div>
     </section>
 
+    <!-- ========== About the Product (video) ========== -->
+    <section id="about-product-video" class="about-product" aria-labelledby="about-product-video-title">
+      <header class="section-header" data-reveal>
+        <h2 id="about-product-video-title" data-i18n="aboutProduct.title">See ColdTrace in action</h2>
+        <p class="section-header__lead" data-i18n="aboutProduct.subtitle">A short overview of how ColdTrace centralizes cold-chain monitoring, alerts and audit-ready reports on a single platform.</p>
+      </header>
+
+      <div class="video-wrapper" data-reveal="scale-in">
+        <!-- TODO: reemplazar VIDEO_ID_ABOUT_PRODUCT por el ID real del video de YouTube "About the Product" -->
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/VIDEO_ID_ABOUT_PRODUCT"
+          title="ColdTrace — About the product video"
+          data-i18n-title="aboutProduct.videoTitle"
+          loading="lazy"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
     <!-- ========== Why ColdTrace ========== -->
     <section id="why" class="why-section" aria-labelledby="why-title">
       <header class="why-section__header">
@@ -664,13 +688,64 @@
       </div>
     </section>
 
+    <!-- ========== About the Team ========== -->
+    <section id="team" class="team-section" aria-labelledby="team-title">
+      <header class="section-header" data-reveal>
+        <h2 id="team-title" data-i18n="team.title">Meet the team behind ColdTrace</h2>
+        <p class="section-header__lead" data-i18n="team.subtitle">Get to know the people building ColdTrace and the process behind the product.</p>
+      </header>
+
+      <ul class="team-grid" role="list" data-reveal="scale-in">
+        <li class="team-member">
+          <img class="team-member__photo" src="assets/images/team/leonardo.png" alt="Leonardo Moisés Cabrera Novoa" loading="lazy" decoding="async" width="120" height="120">
+          <h3>Cabrera Novoa, Leonardo Moisés</h3>
+          <p data-i18n="team.role">Ingeniería de Software</p>
+        </li>
+        <li class="team-member">
+          <img class="team-member__photo" src="assets/images/team/frezzia.jpg" alt="Frezzia Espinoza Paredes" loading="lazy" decoding="async" width="120" height="120">
+          <h3>Espinoza Paredes, Frezzia</h3>
+          <p data-i18n="team.role">Ingeniería de Software</p>
+        </li>
+        <li class="team-member">
+          <!-- TODO: reemplazar por la foto real de David (en el reporte figura como pendiente) -->
+          <img class="team-member__photo" src="assets/images/team/placeholder.png" alt="David Joel Morales Venegas" loading="lazy" decoding="async" width="120" height="120">
+          <h3>Morales Venegas, David Joel</h3>
+          <p data-i18n="team.role">Ingeniería de Software</p>
+        </li>
+        <li class="team-member">
+          <img class="team-member__photo" src="assets/images/team/mauricio.png" alt="Mauricio Luis Pajés León" loading="lazy" decoding="async" width="120" height="120">
+          <h3>Pajés León, Mauricio Luis</h3>
+          <p data-i18n="team.role">Ingeniería de Software</p>
+        </li>
+        <li class="team-member">
+          <img class="team-member__photo" src="assets/images/team/jorge.png" alt="Jorge Joseph Videla Ventura" loading="lazy" decoding="async" width="120" height="120">
+          <h3>Videla Ventura, Jorge Joseph</h3>
+          <p data-i18n="team.role">Ingeniería de Software</p>
+        </li>
+      </ul>
+
+      <div class="video-wrapper" data-reveal>
+        <!-- TODO: reemplazar VIDEO_ID_ABOUT_TEAM por el ID real del video de YouTube "About the Team" -->
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/VIDEO_ID_ABOUT_TEAM"
+          title="ColdTrace — About the team video"
+          data-i18n-title="team.videoTitle"
+          loading="lazy"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
     <!-- ========== Final Sign-up ========== -->
     <section id="contact" class="signup-shell" aria-labelledby="contact-title">
       <div class="signup-shell__stage">
         <img class="signup-shell__art signup-shell__art--left" src="assets/images/final-section/signup-art-left.png" alt="" loading="eager" decoding="async">
         <img class="signup-shell__art signup-shell__art--right" src="assets/images/final-section/signup-art-right.png" alt="" loading="eager" decoding="async">
 
-        <form class="signup-card" novalidate>
+        <form class="signup-card" action="https://coldtrace-frontend-liard.vercel.app/identity-access/sign-up" method="get" novalidate>
           <h2 id="contact-title" class="signup-card__title" data-i18n="contact.title">Create Account now</h2>
           <p class="signup-card__subtitle" data-i18n="contact.subtitle">Start monitoring now</p>
 
@@ -709,14 +784,14 @@
           </div>
 
           <div class="signup-card__social">
-            <a href="#google" class="signup-card__social-btn signup-card__social-btn--google">
+            <a href="https://coldtrace-frontend-liard.vercel.app/identity-access/sign-up" class="signup-card__social-btn signup-card__social-btn--google">
               <span class="signup-card__social-icon signup-card__social-icon--google" aria-hidden="true">
                 <svg viewBox="0 0 24 24" width="26" height="26"><use href="assets/icons/signup-google.svg#icon"></use></svg>
               </span>
               <span data-i18n="contact.google">Sign up with Google</span>
             </a>
 
-            <a href="#apple" class="signup-card__social-btn signup-card__social-btn--apple">
+            <a href="https://coldtrace-frontend-liard.vercel.app/identity-access/sign-up" class="signup-card__social-btn signup-card__social-btn--apple">
               <span class="signup-card__social-icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" width="26" height="26"><use href="assets/icons/signup-apple.svg#icon"></use></svg>
               </span>
