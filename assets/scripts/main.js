@@ -9,11 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (!reduceMotion) {
     document.body.classList.add('motion-enabled');
-    window.setTimeout(() => {
-      requestAnimationFrame(() => {
+    window.requestAnimationFrame(() => {
+      window.requestAnimationFrame(() => {
         document.body.classList.add('motion-in');
       });
-    }, 110);
+    });
   }
 
   const setupScrollReveal = ({
