@@ -4,17 +4,21 @@
 
 #team .video-wrapper {
   max-width: 960px;
-  margin: 0 auto;
+  margin-inline: auto;
 }
 
 .team-grid {
-  display: grid;
-  gap: var(--spacing-800);
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--spacing-1200) var(--spacing-800);
   margin-top: var(--spacing-1200);
 }
 
+/* Each member takes ~1/3 of the row so 5 members lay out as 3 on top, 2 below */
 .team-member {
+  flex: 0 1 260px;
+  max-width: 300px;
   text-align: center;
 }
 
@@ -35,4 +39,15 @@
 .team-member p {
   font-size: var(--font-size-14);
   color: var(--color-text-muted);
+}
+
+/* About-the-Product video section */
+.about-product .video-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* About-the-Team: spacing between members grid and video */
+#team .video-wrapper {
+  margin-top: clamp(80px, 8vw, 140px);
 }

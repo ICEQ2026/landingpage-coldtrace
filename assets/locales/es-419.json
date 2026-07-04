@@ -9,7 +9,8 @@
     "more": "Menú",
     "language": "Idioma",
     "signin": "Iniciar sesión",
-    "register": "Regístrate"
+    "register": "Regístrate",
+    "team": "Equipo"
   },
   "hero": {
     "title": "Toda tu infraestructura de almacenamiento en una sola plataforma inteligente",
@@ -61,8 +62,9 @@
     }
   },
   "aboutProduct": {
-    "title": "ColdTrace en acción",
-    "subtitle": "Mira un recorrido breve por la plataforma."
+    "title": "Descubre ColdTrace en acción",
+    "subtitle": "Un recorrido breve de cómo ColdTrace centraliza el monitoreo de la cadena de frío, las alertas y los reportes listos para auditoría en una sola plataforma.",
+    "videoTitle": "ColdTrace — Video sobre el producto"
   },
   "productShowcase": {
     "a11yTitle": "Recorrido de la plataforma ColdTrace",
@@ -229,14 +231,20 @@
       },
       "resources": {
         "title": "Recursos",
-      "items": {
-        "blog": "Blog",
-        "careers": "Empleos",
-        "social": "Redes sociales",
-        "library": "Biblioteca de recursos",
-        "developers": "Desarrolladores"
+        "items": {
+          "blog": "Blog",
+          "careers": "Empleos",
+          "social": "Redes sociales",
+          "library": "Biblioteca de recursos",
+          "developers": "Desarrolladores"
+        }
       }
     }
-  }
+  },
+  "team": {
+    "title": "Conoce al equipo detrás de ColdTrace",
+    "subtitle": "Conoce a las personas que construyen ColdTrace y el proceso detrás del producto.",
+    "videoTitle": "ColdTrace — Video sobre el equipo",
+    "role": "Ingeniería de Software"
   }
 }
