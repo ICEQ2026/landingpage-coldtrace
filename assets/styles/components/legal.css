@@ -1,0 +1,41 @@
+/* ==========================================================================
+   Legal pages (Terms and Conditions, etc.)
+   ========================================================================== */
+
+.legal-page {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: clamp(48px, 6vw, 96px) clamp(24px, 3vw, 40px);
+}
+
+.legal-content h1 {
+  font-family: var(--font-family-display);
+  font-size: var(--font-size-40, 40px);
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-200);
+}
+
+.legal-content__updated {
+  font-size: var(--font-size-14);
+  color: var(--color-text-muted);
+  margin-bottom: var(--spacing-800);
+}
+
+.legal-content h2 {
+  font-family: var(--font-family-display);
+  font-size: var(--font-size-20);
+  color: var(--color-text-default);
+  margin-top: var(--spacing-800);
+  margin-bottom: var(--spacing-300);
+}
+
+.legal-content p {
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+  margin-bottom: var(--spacing-400);
+}
+
+.legal-content__cta {
+  display: inline-block;
+  margin-top: var(--spacing-1200);
+}
