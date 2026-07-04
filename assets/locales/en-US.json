@@ -205,38 +205,11 @@
   },
   "footer": {
     "columns": {
-      "product": {
-        "title": "Product",
-        "items": {
-          "templates": "Templates",
-          "guides": "Guides",
-          "inspiration": "Inspiration",
-          "product": "Product",
-          "mobile": "Download the Mobile app",
-          "desktop": "Download the Desktop app",
-          "team": "Team collaboration"
-        }
-      },
       "support": {
         "title": "Support",
         "items": {
-          "email": "support@gmail.com",
-          "help": "Help center",
           "pricing": "Plans & pricing",
-          "upcoming": "Upcoming features",
-          "collaboration": "Collaboration features",
-          "release": "Release notes",
-          "status": "Application status"
-        }
-      },
-      "resources": {
-        "title": "Resources",
-        "items": {
-          "blog": "Blog",
-          "careers": "Careers",
-          "social": "Social media",
-          "library": "Resource library",
-          "developers": "Developers"
+          "email": "support@gmail.com"
         }
       }
     },

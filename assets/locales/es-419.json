@@ -205,38 +205,11 @@
   },
   "footer": {
     "columns": {
-      "product": {
-        "title": "Producto",
-        "items": {
-          "templates": "Plantillas",
-          "guides": "Guías",
-          "inspiration": "Inspiración",
-          "product": "Producto",
-          "mobile": "Descarga la app móvil",
-          "desktop": "Descarga la app de escritorio",
-          "team": "Colaboración en equipo"
-        }
-      },
       "support": {
         "title": "Soporte",
         "items": {
-          "email": "support@gmail.com",
-          "help": "Centro de ayuda",
           "pricing": "Planes y precios",
-          "upcoming": "Próximas funciones",
-          "collaboration": "Funciones de colaboración",
-          "release": "Notas de versión",
-          "status": "Estado de la aplicación"
-        }
-      },
-      "resources": {
-        "title": "Recursos",
-        "items": {
-          "blog": "Blog",
-          "careers": "Empleos",
-          "social": "Redes sociales",
-          "library": "Biblioteca de recursos",
-          "developers": "Desarrolladores"
+          "email": "support@gmail.com"
         }
       }
     },
