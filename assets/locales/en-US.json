@@ -9,7 +9,8 @@
     "more": "More",
     "language": "Language",
     "signin": "Sign in",
-    "register": "Register now"
+    "register": "Register now",
+    "team": "Team"
   },
   "hero": {
     "title": "All your storage infrastructure under a single intelligent platform",
@@ -62,7 +63,8 @@
   },
   "aboutProduct": {
     "title": "See ColdTrace in action",
-    "subtitle": "Watch a short overview of the platform."
+    "subtitle": "A short overview of how ColdTrace centralizes cold-chain monitoring, alerts and audit-ready reports on a single platform.",
+    "videoTitle": "ColdTrace — About the product video"
   },
   "productShowcase": {
     "a11yTitle": "ColdTrace platform showcase",
@@ -229,14 +231,20 @@
       },
       "resources": {
         "title": "Resources",
-      "items": {
-        "blog": "Blog",
-        "careers": "Careers",
-        "social": "Social media",
-        "library": "Resource library",
-        "developers": "Developers"
+        "items": {
+          "blog": "Blog",
+          "careers": "Careers",
+          "social": "Social media",
+          "library": "Resource library",
+          "developers": "Developers"
+        }
       }
     }
-  }
+  },
+  "team": {
+    "title": "Meet the team behind ColdTrace",
+    "subtitle": "Get to know the people building ColdTrace and the process behind the product.",
+    "videoTitle": "ColdTrace — About the team video",
+    "role": "Software Engineering"
   }
 }
