@@ -196,7 +196,7 @@
     },
     "terms": {
       "prefix": "Al crear tu cuenta, aceptas los",
-      "link": "Términos y condiciones."
+      "link": "Términos y Condiciones."
     },
     "alt": "o regístrate con",
     "google": "Regístrate con Google",
@@ -239,6 +239,10 @@
           "developers": "Desarrolladores"
         }
       }
+    },
+    "legal": {
+      "copyright": "© 2026 ColdTrace. Todos los derechos reservados.",
+      "terms": "Términos y Condiciones"
     }
   },
   "team": {
@@ -246,5 +250,43 @@
     "subtitle": "Conoce a las personas que construyen ColdTrace y el proceso detrás del producto.",
     "videoTitle": "ColdTrace — Video sobre el equipo",
     "role": "Ingeniería de Software"
+  },
+  "terms": {
+    "backHome": "Volver al inicio",
+    "title": "Términos y Condiciones",
+    "updated": "Última actualización: julio de 2026",
+    "intro": "Estos Términos y Condiciones rigen el uso de la plataforma ColdTrace y de su landing page y aplicación web asociadas. Al acceder o utilizar nuestros servicios, aceptas quedar vinculado por estos términos. Por favor, léelos con atención.",
+    "s1": {
+      "title": "1. Aceptación de los términos",
+      "body": "Al crear una cuenta o utilizar cualquier parte de la plataforma ColdTrace, confirmas que has leído, comprendido y aceptado estos Términos y Condiciones, así como nuestras prácticas de tratamiento de datos."
+    },
+    "s2": {
+      "title": "2. Descripción del servicio",
+      "body": "ColdTrace ofrece una plataforma de monitoreo de la cadena de frío que centraliza los datos de temperatura, humedad y aperturas de puerta, envía alertas y genera reportes listos para auditoría. El servicio se brinda \"tal cual\" y \"según disponibilidad\"."
+    },
+    "s3": {
+      "title": "3. Responsabilidades del usuario",
+      "body": "Eres responsable de mantener la confidencialidad de las credenciales de tu cuenta y de toda actividad que ocurra bajo la misma. Aceptas utilizar la plataforma únicamente con fines lícitos y de acuerdo con estos términos."
+    },
+    "s4": {
+      "title": "4. Datos y privacidad",
+      "body": "Recopilamos y procesamos datos operativos con el único fin de brindar y mejorar el servicio de monitoreo. Nos comprometemos a tratar tu información de forma responsable y transparente, conforme a la normativa de protección de datos aplicable."
+    },
+    "s5": {
+      "title": "5. Compromiso profesional y ético",
+      "body": "ColdTrace se desarrolla siguiendo los principios profesionales y éticos del Código de Ética de Ingeniería de Software de ACM/IEEE y del Colegio de Ingenieros del Perú (CIP). Buscamos actuar en interés público, entregar software de calidad y mantener la integridad y la transparencia durante todo el ciclo de vida del producto."
+    },
+    "s6": {
+      "title": "6. Limitación de responsabilidad",
+      "body": "ColdTrace no será responsable por daños indirectos, incidentales o consecuentes que surjan del uso o la imposibilidad de uso de la plataforma, en la máxima medida permitida por la ley aplicable."
+    },
+    "s7": {
+      "title": "7. Cambios en estos términos",
+      "body": "Podemos actualizar estos Términos y Condiciones periódicamente. Cualquier cambio relevante se reflejará en esta página con una fecha de revisión actualizada. El uso continuado de la plataforma tras los cambios constituye la aceptación de los términos revisados."
+    },
+    "s8": {
+      "title": "8. Contacto",
+      "body": "Ante cualquier consulta sobre estos Términos y Condiciones, escríbenos a support@coldtrace.com."
+    }
   }
 }

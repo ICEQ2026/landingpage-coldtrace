@@ -239,6 +239,10 @@
           "developers": "Developers"
         }
       }
+    },
+    "legal": {
+      "copyright": "© 2026 ColdTrace. All rights reserved.",
+      "terms": "Terms and Conditions"
     }
   },
   "team": {
@@ -246,5 +250,43 @@
     "subtitle": "Get to know the people building ColdTrace and the process behind the product.",
     "videoTitle": "ColdTrace — About the team video",
     "role": "Software Engineering"
+  },
+  "terms": {
+    "backHome": "Back to home",
+    "title": "Terms and Conditions",
+    "updated": "Last updated: July 2026",
+    "intro": "These Terms and Conditions govern the use of the ColdTrace platform and its associated landing page and web application. By accessing or using our services, you agree to be bound by these terms. Please read them carefully.",
+    "s1": {
+      "title": "1. Acceptance of Terms",
+      "body": "By creating an account or using any part of the ColdTrace platform, you confirm that you have read, understood, and agreed to these Terms and Conditions, as well as our data handling practices."
+    },
+    "s2": {
+      "title": "2. Description of Service",
+      "body": "ColdTrace provides a cold-chain monitoring platform that centralizes temperature, humidity, and door-opening data, delivers alerts, and generates audit-ready reports. The service is provided on an \"as-is\" and \"as-available\" basis."
+    },
+    "s3": {
+      "title": "3. User Responsibilities",
+      "body": "You are responsible for maintaining the confidentiality of your account credentials and for all activity that occurs under your account. You agree to use the platform only for lawful purposes and in accordance with these terms."
+    },
+    "s4": {
+      "title": "4. Data and Privacy",
+      "body": "We collect and process operational data solely to provide and improve the monitoring service. We are committed to handling your information responsibly and transparently, in line with applicable data-protection regulations."
+    },
+    "s5": {
+      "title": "5. Professional and Ethical Commitment",
+      "body": "ColdTrace is developed following the professional and ethical principles of the ACM/IEEE Software Engineering Code of Ethics and the Peruvian Colegio de Ingenieros del Perú (CIP). We strive to act in the public interest, deliver quality software, and maintain integrity and transparency throughout the product lifecycle."
+    },
+    "s6": {
+      "title": "6. Limitation of Liability",
+      "body": "ColdTrace shall not be liable for any indirect, incidental, or consequential damages arising from the use of or inability to use the platform, to the maximum extent permitted by applicable law."
+    },
+    "s7": {
+      "title": "7. Changes to These Terms",
+      "body": "We may update these Terms and Conditions from time to time. Any material changes will be reflected on this page with an updated revision date. Continued use of the platform after changes constitutes acceptance of the revised terms."
+    },
+    "s8": {
+      "title": "8. Contact",
+      "body": "For any questions regarding these Terms and Conditions, please contact us at support@coldtrace.com."
+    }
   }
 }
