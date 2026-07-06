@@ -4,7 +4,7 @@
     "solutions": "Features",
     "community": "Platform",
     "resources": "Reviews",
-    "pricing": "Workflow",
+    "pricing": "Pricing",
     "contact": "Contact",
     "more": "More",
     "language": "Language",
@@ -178,6 +178,24 @@
         "title": "Audit",
         "body": "Every reading is recorded and available for download. Export the full report, ready for DIGESA, MINSA inspections or internal audits. Start right now!"
       }
+    }
+  },
+  "pricingPlans": {
+    "eyebrow": "Plans for every cold-chain operation",
+    "title": "Choose the plan that matches your operation",
+    "subtitle": "Start free, scale operational controls, and unlock AI guidance when audit readiness becomes critical.",
+    "loading": {
+      "title": "Loading plans",
+      "body": "ColdTrace is reading the public plan catalog."
+    },
+    "empty": {
+      "title": "No plans available",
+      "body": "The catalog did not return visible plans. Try again later."
+    },
+    "error": {
+      "title": "Plans could not be loaded",
+      "body": "The plan catalog is temporarily unavailable.",
+      "retry": "Try again"
     }
   },
   "contact": {
