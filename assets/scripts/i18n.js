@@ -66,6 +66,9 @@ async function setLocale(locale) {
     document.documentElement.lang = locale;
     localStorage.setItem('locale', locale);
     updateLangSwitcher(locale);
+    window.dispatchEvent(new CustomEvent('coldtrace:locale-changed', {
+      detail: { locale, translations },
+    }));
   } catch (error) {
     console.error(error);
   }

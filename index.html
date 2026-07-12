@@ -696,6 +696,41 @@
           <p data-i18n="overview.columns.audit.body">Every reading is recorded and available for download. Export the full report, ready for DIGESA, MINSA inspections or internal audits. Start right now!</p>
         </article>
       </div>
+
+      <div
+        class="pricing-showcase"
+        aria-labelledby="pricing-title"
+        data-plan-catalog
+        data-plan-catalog-url="https://coldtrace-platform-dtbzbm7bta-uc.a.run.app/api/v1/subscription-plans"
+        data-signup-url="https://coldtrace-frontend-liard.vercel.app/identity-access/sign-up"
+      >
+        <div class="pricing-showcase__heading">
+          <span class="pricing-showcase__eyebrow" data-i18n="pricingPlans.eyebrow">Plans for every cold-chain operation</span>
+          <h2 id="pricing-title" data-i18n="pricingPlans.title">Choose the plan that matches your operation</h2>
+          <p data-i18n="pricingPlans.subtitle">Start free, scale operational controls, and unlock AI guidance when audit readiness becomes critical.</p>
+        </div>
+
+        <div class="pricing-plan-state" data-pricing-loading aria-live="polite">
+          <span class="pricing-plan-state__icon" aria-hidden="true"></span>
+          <strong data-i18n="pricingPlans.loading.title">Loading plans</strong>
+          <p data-i18n="pricingPlans.loading.body">ColdTrace is reading the public plan catalog.</p>
+        </div>
+
+        <div class="pricing-plan-grid" data-pricing-plans hidden></div>
+
+        <div class="pricing-plan-state" data-pricing-empty hidden>
+          <span class="pricing-plan-state__icon" aria-hidden="true"></span>
+          <strong data-i18n="pricingPlans.empty.title">No plans available</strong>
+          <p data-i18n="pricingPlans.empty.body">The catalog did not return visible plans. Try again later.</p>
+        </div>
+
+        <div class="pricing-plan-state pricing-plan-state--error" data-pricing-error hidden>
+          <span class="pricing-plan-state__icon" aria-hidden="true"></span>
+          <strong data-i18n="pricingPlans.error.title">Plans could not be loaded</strong>
+          <p data-i18n="pricingPlans.error.body">The plan catalog is temporarily unavailable.</p>
+          <button type="button" class="btn pricing-plan-state__retry" data-pricing-retry data-i18n="pricingPlans.error.retry">Try again</button>
+        </div>
+      </div>
     </section>
 
     <!-- ========== About the Team ========== -->

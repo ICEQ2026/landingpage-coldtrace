@@ -4,7 +4,7 @@
     "solutions": "Funciones",
     "community": "Plataforma",
     "resources": "Reseñas",
-    "pricing": "Proceso",
+    "pricing": "Precios",
     "contact": "Contacto",
     "more": "Menú",
     "language": "Idioma",
@@ -178,6 +178,24 @@
         "title": "Audita",
         "body": "Cada lectura queda registrada y disponible para descarga. Exporta el reporte completo, listo para DIGESA, MINSA o auditorías internas. Empieza ahora mismo."
       }
+    }
+  },
+  "pricingPlans": {
+    "eyebrow": "Planes para cada operación de cadena de frío",
+    "title": "Elige el plan que se ajusta a tu operación",
+    "subtitle": "Empieza gratis, escala controles operativos y activa guía de IA cuando el cumplimiento sea crítico.",
+    "loading": {
+      "title": "Cargando planes",
+      "body": "ColdTrace está leyendo el catálogo público de planes."
+    },
+    "empty": {
+      "title": "No hay planes disponibles",
+      "body": "El catálogo no devolvió planes visibles. Inténtalo más tarde."
+    },
+    "error": {
+      "title": "No se pudieron cargar los planes",
+      "body": "El catálogo de planes no está disponible temporalmente.",
+      "retry": "Intentar de nuevo"
     }
   },
   "contact": {
